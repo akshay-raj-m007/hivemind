@@ -1,0 +1,34 @@
+# Render Blueprint for the Hive API (FastAPI). In Render: New + -> Blueprint -> pick this repo.
+# Values marked `sync: false` are entered in the Render dashboard (they are secrets or depend on your URLs).
+services:
+  - type: web
+    name: hive-api
+    runtime: python
+    plan: free
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/health
+    # Deploy only after the GitHub Actions checks on the commit have passed
+    autoDeployTrigger: checksPass
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.7
+      - key: TRUST_PROXY            # Render sits behind a proxy; use X-Forwarded-For for the visitor IP
+        value: "true"
+      - key: DEV_RESOLVE_PUBLIC_IP
+        value: "false"
+      - key: ENABLE_RMET
+        value: "true"
+      - key: NVIDIA_CHAT_MODEL
+        value: nvidia/nemotron-3.5-lightning-30b-a3b
+      - key: ADMIN_KEY              # your analytics passkey; Render generates a strong one (see dashboard)
+        generateValue: true
+      - key: NVIDIA_API_KEY
+        sync: false
+      - key: MIXPANEL_TOKEN
+        sync: false
+      - key: CORS_ORIGINS           # e.g. https://hive.vercel.app
+        sync: false
+      - key: CORS_ORIGIN_REGEX      # e.g. https://hive-.*\.vercel\.app  (preview deployments)
+        sync: false

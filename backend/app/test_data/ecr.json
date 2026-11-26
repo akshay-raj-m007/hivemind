@@ -1,0 +1,470 @@
+{
+  "id": "attachment",
+  "instructions": "The statements below concern how you feel in emotionally intimate relationships. Think about how you generally experience close romantic relationships, not just what is happening in a current one, and rate how much you agree with each statement.",
+  "scale": [
+    {
+      "value": 1,
+      "label": "Strongly disagree"
+    },
+    {
+      "value": 2,
+      "label": "Disagree"
+    },
+    {
+      "value": 3,
+      "label": "Neither agree nor disagree"
+    },
+    {
+      "value": 4,
+      "label": "Agree"
+    },
+    {
+      "value": 5,
+      "label": "Strongly agree"
+    }
+  ],
+  "items": [
+    {
+      "id": "ecr1",
+      "n": 1,
+      "text": "I prefer not to show a partner how I feel deep down.",
+      "scale": "avoidance",
+      "key": 1
+    },
+    {
+      "id": "ecr2",
+      "n": 2,
+      "text": "I worry about being abandoned.",
+      "scale": "anxiety",
+      "key": 1
+    },
+    {
+      "id": "ecr3",
+      "n": 3,
+      "text": "I am very comfortable being close to romantic partners.",
+      "scale": "avoidance",
+      "key": -1
+    },
+    {
+      "id": "ecr4",
+      "n": 4,
+      "text": "I worry a lot about my relationships.",
+      "scale": "anxiety",
+      "key": 1
+    },
+    {
+      "id": "ecr5",
+      "n": 5,
+      "text": "Just when my partner starts to get close to me I find myself pulling away.",
+      "scale": "avoidance",
+      "key": 1
+    },
+    {
+      "id": "ecr6",
+      "n": 6,
+      "text": "I worry that romantic partners wont care about me as much as I care about them.",
+      "scale": "anxiety",
+      "key": 1
+    },
+    {
+      "id": "ecr7",
+      "n": 7,
+      "text": "I get uncomfortable when a romantic partner wants to be very close.",
+      "scale": "avoidance",
+      "key": 1
+    },
+    {
+      "id": "ecr8",
+      "n": 8,
+      "text": "I worry a fair amount about losing my partner.",
+      "scale": "anxiety",
+      "key": 1
+    },
+    {
+      "id": "ecr9",
+      "n": 9,
+      "text": "I don't feel comfortable opening up to romantic partners.",
+      "scale": "avoidance",
+      "key": 1
+    },
+    {
+      "id": "ecr10",
+      "n": 10,
+      "text": "I often wish that my partner's feelings for me were as strong as my feelings for him/her.",
+      "scale": "anxiety",
+      "key": 1
+    },
+    {
+      "id": "ecr11",
+      "n": 11,
+      "text": "I want to get close to my partner, but I keep pulling back.",
+      "scale": "avoidance",
+      "key": 1
+    },
+    {
+      "id": "ecr12",
+      "n": 12,
+      "text": "I often want to merge completely with romantic partners, and this sometimes scares them away.",
+      "scale": "anxiety",
+      "key": 1
+    },
+    {
+      "id": "ecr13",
+      "n": 13,
+      "text": "I am nervous when partners get too close to me.",
+      "scale": "avoidance",
+      "key": 1
+    },
+    {
+      "id": "ecr14",
+      "n": 14,
+      "text": "I worry about being alone.",
+      "scale": "anxiety",
+      "key": 1
+    },
+    {
+      "id": "ecr15",
+      "n": 15,
+      "text": "I feel comfortable sharing my private thoughts and feelings with my partner.",
+      "scale": "avoidance",
+      "key": -1
+    },
+    {
+      "id": "ecr16",
+      "n": 16,
+      "text": "My desire to be very close sometimes scares people away.",
+      "scale": "anxiety",
+      "key": 1
+    },
+    {
+      "id": "ecr17",
+      "n": 17,
+      "text": "I try to avoid getting too close to my partner.",
+      "scale": "avoidance",
+      "key": 1
+    },
+    {
+      "id": "ecr18",
+      "n": 18,
+      "text": "I need a lot of reassurance that I am loved by my partner.",
+      "scale": "anxiety",
+      "key": 1
+    },
+    {
+      "id": "ecr19",
+      "n": 19,
+      "text": "I find it relatively easy to get close to my partner.",
+      "scale": "avoidance",
+      "key": -1
+    },
+    {
+      "id": "ecr20",
+      "n": 20,
+      "text": "Sometimes I feel that I force my partners to show more feeling, more commitment.",
+      "scale": "anxiety",
+      "key": 1
+    },
+    {
+      "id": "ecr21",
+      "n": 21,
+      "text": "I find it difficult to allow myself to depend on romantic partners.",
+      "scale": "avoidance",
+      "key": 1
+    },
+    {
+      "id": "ecr22",
+      "n": 22,
+      "text": "I do not often worry about being abandoned.",
+      "scale": "anxiety",
+      "key": -1
+    },
+    {
+      "id": "ecr23",
+      "n": 23,
+      "text": "I prefer not to be too close to romantic partners.",
+      "scale": "avoidance",
+      "key": 1
+    },
+    {
+      "id": "ecr24",
+      "n": 24,
+      "text": "If I can't get my partner to show interest in me, I get upset or angry.",
+      "scale": "anxiety",
+      "key": 1
+    },
+    {
+      "id": "ecr25",
+      "n": 25,
+      "text": "I tell my partner just about everything.",
+      "scale": "avoidance",
+      "key": -1
+    },
+    {
+      "id": "ecr26",
+      "n": 26,
+      "text": "I find that my partner(s) don't want to get as close as I would like.",
+      "scale": "anxiety",
+      "key": 1
+    },
+    {
+      "id": "ecr27",
+      "n": 27,
+      "text": "I usually discuss my problems and concerns with my partner.",
+      "scale": "avoidance",
+      "key": -1
+    },
+    {
+      "id": "ecr28",
+      "n": 28,
+      "text": "When I'm not involved in a relationship, I feel somewhat anxious and insecure.",
+      "scale": "anxiety",
+      "key": 1
+    },
+    {
+      "id": "ecr29",
+      "n": 29,
+      "text": "I feel comfortable depending on romantic partners.",
+      "scale": "avoidance",
+      "key": -1
+    },
+    {
+      "id": "ecr30",
+      "n": 30,
+      "text": "I get frustrated when my partner is not around as much as I would like.",
+      "scale": "anxiety",
+      "key": 1
+    },
+    {
+      "id": "ecr31",
+      "n": 31,
+      "text": "I don't mind asking romantic partners for comfort, advice, or help.",
+      "scale": "avoidance",
+      "key": -1
+    },
+    {
+      "id": "ecr32",
+      "n": 32,
+      "text": "I get frustrated if romantic partners are not available when I need them.",
+      "scale": "anxiety",
+      "key": 1
+    },
+    {
+      "id": "ecr33",
+      "n": 33,
+      "text": "It helps to turn to my romantic partner in times of need.",
+      "scale": "avoidance",
+      "key": -1
+    },
+    {
+      "id": "ecr34",
+      "n": 34,
+      "text": "When romantic partners disapprove of me, I feel really bad about myself.",
+      "scale": "anxiety",
+      "key": 1
+    },
+    {
+      "id": "ecr35",
+      "n": 35,
+      "text": "I turn to my partner for many things, including comfort and reassurance.",
+      "scale": "avoidance",
+      "key": -1
+    },
+    {
+      "id": "ecr36",
+      "n": 36,
+      "text": "I resent it when my partner spends time away from me.",
+      "scale": "anxiety",
+      "key": 1
+    }
+  ],
+  "definitions": {
+    "anxiety_high": "People who score high on this variable tend to worry whether their partner is available, responsive, attentive, etc.",
+    "anxiety_low": "People who score on the low end of this variable are more secure in the perceived responsiveness of their partners.",
+    "avoidance_high": "People on the high end of this dimension prefer not to rely on others or open up to others.",
+    "avoidance_low": "People on the low end of this dimension are more comfortable being intimate with others and are more secure depending upon and having others depend upon them.",
+    "secure": "A prototypical secure adult is low on both of these dimensions.",
+    "dismissing": "dismissing individuals (i.e., individuals who are high on the dimension of attachment-related avoidance but low on the dimension of attachment-related anxiety)"
+  },
+  "norms": {
+    "avoidance": {
+      "n": 46610,
+      "mean": 46.17,
+      "sd": 15.11,
+      "median": 44.0,
+      "percentile_by_score": {
+        "18": 0.4,
+        "19": 1.1,
+        "20": 1.7,
+        "21": 2.5,
+        "22": 3.4,
+        "23": 4.5,
+        "24": 5.7,
+        "25": 6.9,
+        "26": 8.3,
+        "27": 9.7,
+        "28": 11.2,
+        "29": 12.8,
+        "30": 14.5,
+        "31": 16.4,
+        "32": 18.3,
+        "33": 20.4,
+        "34": 22.6,
+        "35": 25.0,
+        "36": 27.6,
+        "37": 30.5,
+        "38": 33.3,
+        "39": 36.1,
+        "40": 38.9,
+        "41": 41.6,
+        "42": 44.2,
+        "43": 46.8,
+        "44": 49.3,
+        "45": 51.6,
+        "46": 53.9,
+        "47": 56.2,
+        "48": 58.4,
+        "49": 60.4,
+        "50": 62.4,
+        "51": 64.4,
+        "52": 66.3,
+        "53": 68.2,
+        "54": 70.1,
+        "55": 72.0,
+        "56": 73.7,
+        "57": 75.5,
+        "58": 77.1,
+        "59": 78.6,
+        "60": 80.2,
+        "61": 81.6,
+        "62": 83.1,
+        "63": 84.5,
+        "64": 85.8,
+        "65": 87.0,
+        "66": 88.3,
+        "67": 89.4,
+        "68": 90.6,
+        "69": 91.6,
+        "70": 92.5,
+        "71": 93.4,
+        "72": 94.3,
+        "73": 95.0,
+        "74": 95.6,
+        "75": 96.2,
+        "76": 96.7,
+        "77": 97.2,
+        "78": 97.5,
+        "79": 97.9,
+        "80": 98.2,
+        "81": 98.5,
+        "82": 98.7,
+        "83": 99.0,
+        "84": 99.2,
+        "85": 99.3,
+        "86": 99.5,
+        "87": 99.7,
+        "88": 99.8,
+        "89": 99.8,
+        "90": 99.9
+      }
+    },
+    "anxiety": {
+      "n": 46610,
+      "mean": 55.72,
+      "sd": 14.46,
+      "median": 56.0,
+      "percentile_by_score": {
+        "18": 0.1,
+        "19": 0.4,
+        "20": 0.5,
+        "21": 0.7,
+        "22": 1.0,
+        "23": 1.3,
+        "24": 1.6,
+        "25": 1.9,
+        "26": 2.3,
+        "27": 2.7,
+        "28": 3.2,
+        "29": 3.8,
+        "30": 4.3,
+        "31": 5.0,
+        "32": 5.7,
+        "33": 6.4,
+        "34": 7.3,
+        "35": 8.3,
+        "36": 9.4,
+        "37": 10.6,
+        "38": 11.9,
+        "39": 13.4,
+        "40": 14.9,
+        "41": 16.5,
+        "42": 18.2,
+        "43": 19.9,
+        "44": 21.9,
+        "45": 24.0,
+        "46": 26.1,
+        "47": 28.2,
+        "48": 30.3,
+        "49": 32.6,
+        "50": 34.8,
+        "51": 37.0,
+        "52": 39.3,
+        "53": 41.8,
+        "54": 44.4,
+        "55": 47.0,
+        "56": 49.5,
+        "57": 52.1,
+        "58": 54.8,
+        "59": 57.4,
+        "60": 60.0,
+        "61": 62.6,
+        "62": 65.1,
+        "63": 67.6,
+        "64": 70.0,
+        "65": 72.4,
+        "66": 74.6,
+        "67": 76.8,
+        "68": 78.9,
+        "69": 81.0,
+        "70": 82.9,
+        "71": 84.7,
+        "72": 86.3,
+        "73": 87.9,
+        "74": 89.4,
+        "75": 90.7,
+        "76": 91.9,
+        "77": 93.0,
+        "78": 94.1,
+        "79": 95.0,
+        "80": 95.8,
+        "81": 96.5,
+        "82": 97.1,
+        "83": 97.7,
+        "84": 98.2,
+        "85": 98.6,
+        "86": 99.0,
+        "87": 99.3,
+        "88": 99.5,
+        "89": 99.7,
+        "90": 99.9
+      }
+    }
+  },
+  "scale_note": "Brennan et al. used a 7-point scale; this version uses the 5-point scale of the norm dataset.",
+  "sources": [
+    {
+      "what": "Items and scoring",
+      "cite": "Brennan, K. A., Clark, C. L., & Shaver, P. R. (1998). Self-report measurement of adult romantic attachment: An integrative overview. In Simpson & Rholes (Eds.), Attachment Theory and Close Relationships (pp. 46-76). Guilford.",
+      "url": "https://labs.psychology.illinois.edu/~rcfraley/measures/brennan.html"
+    },
+    {
+      "what": "Dimension definitions",
+      "cite": "Fraley, R. C. A Brief Overview of Adult Attachment Theory and Research.",
+      "url": "https://labs.psychology.illinois.edu/~rcfraley/attachment.htm"
+    },
+    {
+      "what": "Norms (percentiles)",
+      "cite": "Open Psychometrics ECR dataset, 46,610 complete responses collected online (self-selected sample).",
+      "url": "https://openpsychometrics.org/_rawdata/"
+    }
+  ]
+}

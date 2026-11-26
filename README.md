@@ -1,0 +1,129 @@
+# Hive — psychological tests (FastAPI + React + Mixpanel)
+
+Seven tests, each built only from published, citable sources. Every question, image, answer key and score
+table is generated and checked by `backend/tools/build_test_data.py`.
+
+| Card | Content source |
+|---|---|
+| Rorschach Inkblot Test | Original plates (public domain). Answers are compared with published *popular responses* (Beck, Piotrowski, Dana). |
+| Reading the Mind in the Eyes | Official Autism Research Centre stimuli and answer key. Norms from Baron-Cohen et al. (2001). Non-commercial use. |
+| Big Five (OCEAN) | IPIP-50 (public domain). Norms from Open Psychometrics (n = 19,718). Definitions from John, Naumann & Soto (2008). |
+| MBTI alternative | OEJTS 1.2 (Open Psychometrics, CC BY-NC-SA 4.0). Keying derived from the author's development data. |
+| Holland Code (RIASEC) | Interest Item Pool (public domain). O*NET definitions. Norms n = 135,764. |
+| Rosenberg Self-Esteem | Public domain (per the University of Maryland). UMD scoring. Norms n = 46,546. |
+| Attachment Style (ECR) | Brennan, Clark & Shaver (1998) items and keys from Fraley's site. Definitions from Fraley. Norms n = 46,610. |
+
+TAT, House-Tree-Person and MMPI were removed: there's no public data that maps responses to results
+(the MMPI's items are also copyrighted).
+
+## Run it
+
+```bash
+# backend (from backend/)
+../venv/Scripts/pip install -r requirements.txt
+../venv/Scripts/python -m uvicorn app.main:app --reload --port 8000
+
+# frontend (from frontend/)
+npm install
+npm run dev          # http://localhost:5173
+```
+
+## How a result is produced
+
+```
+answers ──► scoring (app/scoring.py, no AI)            → scores, percentiles, levels
+        ──► insights (app/insights.py)                  → verbatim research quotes for those levels/cards
+        ──► portrait (app/portrait.py, no AI)           → title + paragraphs linking each quote to the
+                                                          person's own answer on the same trait or card
+visitor ──► visit story (app/visitor.py)                → "Late at night in <city>, on a <OS> desktop…"
+optional ─► AI polish (app/narrative.py)                → rewords each paragraph; quotes and numbers are
+                                                          locked, and any rewrite that adds a fact, name,
+                                                          feeling or claim is discarded
+```
+
+The conclusions are always written in code from verified data. The AI can only improve the wording.
+
+Results are structured into sections (summary, what your score means, research, your own answers, how to read
+your levels). The greeting at the top is written from the visit analytics: the AI receives only descriptive facts
+(place, OS, browser, ISP, connection class, VPN/private-network checks), never counts or durations. Those appear as
+stat chips computed in code.
+
+Research quotes come from `app/test_data/insights.json` (85 quotes from Wikipedia, rorschach.org and the
+Dauphin et al. 2024 abstract). Each is checked word for word against its
+source (CC BY-SA, which summarises the published research) by `tools/build_insights.py`.
+
+### Enabling the AI polish (free, opt-in per test)
+
+1. Get a free key at https://build.nvidia.com ("Get API Key").
+2. In `backend/.env`, set `NVIDIA_API_KEY=nvapi-...`.
+   Default model: `NVIDIA_CHAT_MODEL=nvidia/nemotron-3.5-lightning-30b-a3b`. `nvidia/nemotron-3.5-bolt-e4b` also
+   works, but more of its rewrites get rejected.
+3. Restart the backend (the key is read at startup). `/api/health` should show `"llm_enabled": true`.
+
+Users then see a **"Use AI to polish the wording of my result"** checkbox, unticked by default, in the "Are you
+sure you want to enter?" box. It lists exactly what is and isn't sent to NVIDIA. Without the tick, nothing leaves
+the server.
+
+## Rebuilding the test data
+
+All test content is generated from the original sources and verified against them:
+
+```bash
+cd backend
+../venv/Scripts/pip install -r requirements-dev.txt
+HIVE_BUILD_CONTACT="you@example.com" ../venv/Scripts/python tools/build_test_data.py
+```
+
+Wikimedia requires a contact (URL or email) in automated requests; set `HIVE_BUILD_CONTACT` to your own.
+
+## Deployment
+
+```
+GitHub (main) ──► GitHub Actions CI: backend tests + frontend build
+             ├──► Render  (backend/, render.yaml)  deploys after CI passes
+             └──► Vercel  (frontend/)              deploys on every push
+```
+
+### 1. Backend on Render (free)
+
+1. In [Render](https://render.com): **New + → Blueprint**, connect this repository. Render reads `render.yaml`.
+2. Fill in the values Render asks for:
+   - `NVIDIA_API_KEY`: your key from build.nvidia.com
+   - `MIXPANEL_TOKEN`: optional
+   - `CORS_ORIGINS`: your Vercel URL, e.g. `https://hive.vercel.app` (you can add it after step 2 below)
+   - `CORS_ORIGIN_REGEX`: optional, e.g. `https://hive-.*\.vercel\.app` for preview deployments
+3. `ADMIN_KEY` (your analytics passkey) is generated by Render. Copy it from the service's **Environment** tab.
+4. Check `https://<your-service>.onrender.com/api/health`.
+
+Free Render services sleep when idle, so the first request takes up to a minute (the app shows a "waking up"
+message). The SQLite analytics database lives on Render's disk, which is **reset on every deploy or restart**.
+Mixpanel keeps the long-term analytics. For a persistent local copy, add a Render disk and set `DB_PATH` to a
+path on it.
+
+### 2. Frontend on Vercel (free)
+
+1. In [Vercel](https://vercel.com): **Add New → Project**, import this repository.
+2. Set **Root Directory** to `frontend`. The framework (Vite) and build settings come from `frontend/vercel.json`.
+3. Environment variables:
+   - `VITE_API_URL`: your Render URL, e.g. `https://hive-api.onrender.com`
+   - `VITE_MIXPANEL_TOKEN`: optional
+4. Deploy, then put the Vercel URL into Render's `CORS_ORIGINS`.
+
+### 3. GitHub Actions
+
+`.github/workflows/ci.yml` runs on every push and pull request to `main`. It runs the backend test suite
+(`backend/tests`) offline with no API keys, and builds the frontend. Render waits for these checks before
+deploying.
+
+### Notes
+
+- Hive is a **non-commercial showcase**. That condition is required by the Eyes Test (Autism Research Centre) and the
+  OEJTS (CC BY-NC-SA) licences. Keep their attribution, which the app already shows.
+- AI wording is opt-in per test, with a clear list of the data sent. Card-click analytics (Mixpanel) runs for every
+  visitor, so add a site privacy notice.
+
+## Analytics (owner only)
+
+Opening a test card is sent to Mixpanel as `Card Clicked`, with `card_id` / `card_title` = the test. Collapsing a
+card is not counted. The in-app analytics page is reached from the small **Owner access** link in the footer (or
+`/#/analytics`) and asks for the passkey (`ADMIN_KEY`).

@@ -1,0 +1,614 @@
+{
+  "id": "riasec",
+  "instructions": "Rate how much you would like to perform each task. Don't worry about whether you have the training or how much money it would pay - just think about whether you would enjoy it.",
+  "scale": [
+    {
+      "value": 1,
+      "label": "Dislike"
+    },
+    {
+      "value": 2,
+      "label": "Slightly dislike"
+    },
+    {
+      "value": 3,
+      "label": "Neutral"
+    },
+    {
+      "value": 4,
+      "label": "Slightly enjoy"
+    },
+    {
+      "value": 5,
+      "label": "Enjoy"
+    }
+  ],
+  "scale_note": "The dataset labelled only 1 = Dislike, 3 = Neutral, 5 = Enjoy; points 2 and 4 are app labels.",
+  "items": [
+    {
+      "id": "r1",
+      "code": "R1",
+      "type": "R",
+      "text": "Test the quality of parts before shipment"
+    },
+    {
+      "id": "r2",
+      "code": "R2",
+      "type": "R",
+      "text": "Lay brick or tile"
+    },
+    {
+      "id": "r3",
+      "code": "R3",
+      "type": "R",
+      "text": "Work on an offshore oil-drilling rig"
+    },
+    {
+      "id": "r4",
+      "code": "R4",
+      "type": "R",
+      "text": "Assemble electronic parts"
+    },
+    {
+      "id": "r5",
+      "code": "R5",
+      "type": "R",
+      "text": "Operate a grinding machine in a factory"
+    },
+    {
+      "id": "r6",
+      "code": "R6",
+      "type": "R",
+      "text": "Fix a broken faucet"
+    },
+    {
+      "id": "r7",
+      "code": "R7",
+      "type": "R",
+      "text": "Assemble products in a factory"
+    },
+    {
+      "id": "r8",
+      "code": "R8",
+      "type": "R",
+      "text": "Install flooring in houses"
+    },
+    {
+      "id": "i1",
+      "code": "I1",
+      "type": "I",
+      "text": "Study the structure of the human body"
+    },
+    {
+      "id": "i2",
+      "code": "I2",
+      "type": "I",
+      "text": "Study animal behavior"
+    },
+    {
+      "id": "i3",
+      "code": "I3",
+      "type": "I",
+      "text": "Do research on plants or animals"
+    },
+    {
+      "id": "i4",
+      "code": "I4",
+      "type": "I",
+      "text": "Develop a new medical treatment or procedure"
+    },
+    {
+      "id": "i5",
+      "code": "I5",
+      "type": "I",
+      "text": "Conduct biological research"
+    },
+    {
+      "id": "i6",
+      "code": "I6",
+      "type": "I",
+      "text": "Study whales and other types of marine life"
+    },
+    {
+      "id": "i7",
+      "code": "I7",
+      "type": "I",
+      "text": "Work in a biology lab"
+    },
+    {
+      "id": "i8",
+      "code": "I8",
+      "type": "I",
+      "text": "Make a map of the bottom of an ocean"
+    },
+    {
+      "id": "a1",
+      "code": "A1",
+      "type": "A",
+      "text": "Conduct a musical choir"
+    },
+    {
+      "id": "a2",
+      "code": "A2",
+      "type": "A",
+      "text": "Direct a play"
+    },
+    {
+      "id": "a3",
+      "code": "A3",
+      "type": "A",
+      "text": "Design artwork for magazines"
+    },
+    {
+      "id": "a4",
+      "code": "A4",
+      "type": "A",
+      "text": "Write a song"
+    },
+    {
+      "id": "a5",
+      "code": "A5",
+      "type": "A",
+      "text": "Write books or plays"
+    },
+    {
+      "id": "a6",
+      "code": "A6",
+      "type": "A",
+      "text": "Play a musical instrument"
+    },
+    {
+      "id": "a7",
+      "code": "A7",
+      "type": "A",
+      "text": "Perform stunts for a movie or television show"
+    },
+    {
+      "id": "a8",
+      "code": "A8",
+      "type": "A",
+      "text": "Design sets for plays"
+    },
+    {
+      "id": "s1",
+      "code": "S1",
+      "type": "S",
+      "text": "Give career guidance to people"
+    },
+    {
+      "id": "s2",
+      "code": "S2",
+      "type": "S",
+      "text": "Do volunteer work at a non-profit organization"
+    },
+    {
+      "id": "s3",
+      "code": "S3",
+      "type": "S",
+      "text": "Help people who have problems with drugs or alcohol"
+    },
+    {
+      "id": "s4",
+      "code": "S4",
+      "type": "S",
+      "text": "Teach an individual an exercise routine"
+    },
+    {
+      "id": "s5",
+      "code": "S5",
+      "type": "S",
+      "text": "Help people with family-related problems"
+    },
+    {
+      "id": "s6",
+      "code": "S6",
+      "type": "S",
+      "text": "Supervise the activities of children at a camp"
+    },
+    {
+      "id": "s7",
+      "code": "S7",
+      "type": "S",
+      "text": "Teach children how to read"
+    },
+    {
+      "id": "s8",
+      "code": "S8",
+      "type": "S",
+      "text": "Help elderly people with their daily activities"
+    },
+    {
+      "id": "e1",
+      "code": "E1",
+      "type": "E",
+      "text": "Sell restaurant franchises to individuals"
+    },
+    {
+      "id": "e2",
+      "code": "E2",
+      "type": "E",
+      "text": "Sell merchandise at a department store"
+    },
+    {
+      "id": "e3",
+      "code": "E3",
+      "type": "E",
+      "text": "Manage the operations of a hotel"
+    },
+    {
+      "id": "e4",
+      "code": "E4",
+      "type": "E",
+      "text": "Operate a beauty salon or barber shop"
+    },
+    {
+      "id": "e5",
+      "code": "E5",
+      "type": "E",
+      "text": "Manage a department within a large company"
+    },
+    {
+      "id": "e6",
+      "code": "E6",
+      "type": "E",
+      "text": "Manage a clothing store"
+    },
+    {
+      "id": "e7",
+      "code": "E7",
+      "type": "E",
+      "text": "Sell houses"
+    },
+    {
+      "id": "e8",
+      "code": "E8",
+      "type": "E",
+      "text": "Run a toy store"
+    },
+    {
+      "id": "c1",
+      "code": "C1",
+      "type": "C",
+      "text": "Generate the monthly payroll checks for an office"
+    },
+    {
+      "id": "c2",
+      "code": "C2",
+      "type": "C",
+      "text": "Inventory supplies using a hand-held computer"
+    },
+    {
+      "id": "c3",
+      "code": "C3",
+      "type": "C",
+      "text": "Use a computer program to generate customer bills"
+    },
+    {
+      "id": "c4",
+      "code": "C4",
+      "type": "C",
+      "text": "Maintain employee records"
+    },
+    {
+      "id": "c5",
+      "code": "C5",
+      "type": "C",
+      "text": "Compute and record statistical and other numerical data"
+    },
+    {
+      "id": "c6",
+      "code": "C6",
+      "type": "C",
+      "text": "Operate a calculator"
+    },
+    {
+      "id": "c7",
+      "code": "C7",
+      "type": "C",
+      "text": "Handle customers' bank transactions"
+    },
+    {
+      "id": "c8",
+      "code": "C8",
+      "type": "C",
+      "text": "Keep shipping and receiving records"
+    }
+  ],
+  "types": {
+    "R": {
+      "name": "Realistic",
+      "work": "Work involves designing, building, or repairing of equipment, materials, or structures, engaging in physical activity, or working outdoors.",
+      "occupations": "Realistic occupations are often associated with engineering, mechanics and electronics, construction, woodworking, transportation, machine operation, agriculture, animal services, physical or manual labor, athletics, or protective services."
+    },
+    "I": {
+      "name": "Investigative",
+      "work": "Work involves studying and researching non-living objects, living organisms, disease or other forms of impairment, or human behavior.",
+      "occupations": "Investigative occupations are often associated with physical, life, medical, or social sciences, and can be found in the fields of humanities, mathematics/statistics, information technology, or health care service."
+    },
+    "A": {
+      "name": "Artistic",
+      "work": "Work involves creating original visual artwork, performances, written works, food, or music for a variety of media, or applying artistic principles to the design of various objects and materials.",
+      "occupations": "Artistic occupations are often associated with visual arts, applied arts and design, performing arts, music, creative writing, media, or culinary art."
+    },
+    "S": {
+      "name": "Social",
+      "work": "Work involves helping, teaching, advising, assisting, or providing service to others.",
+      "occupations": "Social occupations are often associated with social, health care, personal service, teaching/education, or religious activities."
+    },
+    "E": {
+      "name": "Enterprising",
+      "work": "Work involves managing, negotiating, marketing, or selling, typically in a business setting, or leading or advising people in political and legal situations.",
+      "occupations": "Enterprising occupations are often associated with business initiatives, sales, marketing/advertising, finance, management/administration, professional advising, public speaking, politics, or law."
+    },
+    "C": {
+      "name": "Conventional",
+      "work": "Work involves following procedures and regulations to organize information or data, typically in a business setting.",
+      "occupations": "Conventional occupations are often associated with office work, accounting, mathematics/statistics, information technology, finance, or human resources."
+    }
+  },
+  "norms": {
+    "R": {
+      "n": 135764,
+      "mean": 16.69,
+      "sd": 7.11,
+      "median": 15.0,
+      "percentile_by_score": {
+        "8": 6.3,
+        "9": 15.1,
+        "10": 21.0,
+        "11": 27.0,
+        "12": 32.6,
+        "13": 38.0,
+        "14": 43.0,
+        "15": 47.8,
+        "16": 52.6,
+        "17": 57.2,
+        "18": 61.6,
+        "19": 65.8,
+        "20": 69.7,
+        "21": 73.4,
+        "22": 76.8,
+        "23": 80.0,
+        "24": 83.0,
+        "25": 85.8,
+        "26": 88.2,
+        "27": 90.3,
+        "28": 92.0,
+        "29": 93.6,
+        "30": 95.0,
+        "31": 96.0,
+        "32": 96.9,
+        "33": 97.6,
+        "34": 98.2,
+        "35": 98.7,
+        "36": 99.0,
+        "37": 99.3,
+        "38": 99.5,
+        "39": 99.7,
+        "40": 99.9
+      }
+    },
+    "I": {
+      "n": 135764,
+      "mean": 24.12,
+      "sd": 8.37,
+      "median": 25.0,
+      "percentile_by_score": {
+        "8": 1.6,
+        "9": 3.9,
+        "10": 5.7,
+        "11": 7.7,
+        "12": 9.9,
+        "13": 12.2,
+        "14": 14.5,
+        "15": 17.0,
+        "16": 19.8,
+        "17": 22.8,
+        "18": 25.9,
+        "19": 29.1,
+        "20": 32.5,
+        "21": 36.0,
+        "22": 39.7,
+        "23": 43.5,
+        "24": 47.6,
+        "25": 51.8,
+        "26": 55.9,
+        "27": 60.0,
+        "28": 64.1,
+        "29": 68.2,
+        "30": 72.3,
+        "31": 76.3,
+        "32": 80.3,
+        "33": 84.0,
+        "34": 87.0,
+        "35": 89.6,
+        "36": 92.1,
+        "37": 94.3,
+        "38": 96.1,
+        "39": 97.6,
+        "40": 99.1
+      }
+    },
+    "A": {
+      "n": 135764,
+      "mean": 23.02,
+      "sd": 8.22,
+      "median": 23.0,
+      "percentile_by_score": {
+        "8": 2.0,
+        "9": 4.8,
+        "10": 6.8,
+        "11": 9.1,
+        "12": 11.8,
+        "13": 14.5,
+        "14": 17.1,
+        "15": 20.0,
+        "16": 23.0,
+        "17": 26.3,
+        "18": 29.7,
+        "19": 33.2,
+        "20": 36.8,
+        "21": 40.6,
+        "22": 44.4,
+        "23": 48.4,
+        "24": 52.6,
+        "25": 56.9,
+        "26": 61.1,
+        "27": 65.3,
+        "28": 69.5,
+        "29": 73.5,
+        "30": 77.3,
+        "31": 80.9,
+        "32": 84.4,
+        "33": 87.6,
+        "34": 90.3,
+        "35": 92.6,
+        "36": 94.7,
+        "37": 96.4,
+        "38": 97.7,
+        "39": 98.7,
+        "40": 99.5
+      }
+    },
+    "S": {
+      "n": 135764,
+      "mean": 26.09,
+      "sd": 7.47,
+      "median": 27.0,
+      "percentile_by_score": {
+        "8": 0.6,
+        "9": 1.5,
+        "10": 2.4,
+        "11": 3.4,
+        "12": 4.7,
+        "13": 6.1,
+        "14": 7.5,
+        "15": 9.2,
+        "16": 11.2,
+        "17": 13.4,
+        "18": 15.8,
+        "19": 18.5,
+        "20": 21.5,
+        "21": 24.8,
+        "22": 28.3,
+        "23": 32.2,
+        "24": 36.6,
+        "25": 41.3,
+        "26": 46.1,
+        "27": 51.0,
+        "28": 56.1,
+        "29": 61.3,
+        "30": 66.4,
+        "31": 71.4,
+        "32": 76.3,
+        "33": 80.8,
+        "34": 84.8,
+        "35": 88.4,
+        "36": 91.6,
+        "37": 94.2,
+        "38": 96.3,
+        "39": 97.9,
+        "40": 99.2
+      }
+    },
+    "E": {
+      "n": 135764,
+      "mean": 20.5,
+      "sd": 7.11,
+      "median": 20.0,
+      "percentile_by_score": {
+        "8": 2.1,
+        "9": 5.1,
+        "10": 7.5,
+        "11": 10.4,
+        "12": 13.6,
+        "13": 17.0,
+        "14": 20.5,
+        "15": 24.5,
+        "16": 28.8,
+        "17": 33.5,
+        "18": 38.3,
+        "19": 43.2,
+        "20": 48.2,
+        "21": 53.3,
+        "22": 58.2,
+        "23": 63.2,
+        "24": 68.1,
+        "25": 72.7,
+        "26": 77.0,
+        "27": 80.8,
+        "28": 84.3,
+        "29": 87.4,
+        "30": 90.0,
+        "31": 92.2,
+        "32": 94.1,
+        "33": 95.6,
+        "34": 96.7,
+        "35": 97.6,
+        "36": 98.3,
+        "37": 98.9,
+        "38": 99.3,
+        "39": 99.5,
+        "40": 99.8
+      }
+    },
+    "C": {
+      "n": 135764,
+      "mean": 19.09,
+      "sd": 7.86,
+      "median": 18.0,
+      "percentile_by_score": {
+        "8": 4.3,
+        "9": 10.3,
+        "10": 14.4,
+        "11": 18.7,
+        "12": 22.9,
+        "13": 27.0,
+        "14": 31.1,
+        "15": 35.2,
+        "16": 39.6,
+        "17": 44.1,
+        "18": 48.6,
+        "19": 52.9,
+        "20": 57.1,
+        "21": 61.2,
+        "22": 65.1,
+        "23": 69.0,
+        "24": 72.9,
+        "25": 76.6,
+        "26": 79.8,
+        "27": 82.7,
+        "28": 85.3,
+        "29": 87.6,
+        "30": 89.7,
+        "31": 91.5,
+        "32": 93.2,
+        "33": 94.6,
+        "34": 95.7,
+        "35": 96.6,
+        "36": 97.4,
+        "37": 98.1,
+        "38": 98.6,
+        "39": 99.1,
+        "40": 99.6
+      }
+    }
+  },
+  "sources": [
+    {
+      "what": "Items (public domain)",
+      "cite": "Interest Item Pool - Liao, H.-Y., Armstrong, P. I., & Rounds, J. (2008). Development and initial validation of public domain Basic Interest Markers. Journal of Vocational Behavior, 73, 159-183. As used in the Open Psychometrics RIASEC test.",
+      "url": "https://openpsychometrics.org/_rawdata/"
+    },
+    {
+      "what": "Norms (percentiles)",
+      "cite": "Open Psychometrics RIASEC dataset, 135,764 complete responses collected online 2015-2018 (self-selected sample).",
+      "url": "https://openpsychometrics.org/_rawdata/"
+    },
+    {
+      "what": "Interest area definitions (public domain)",
+      "cite": "O*NET OnLine, Interests (1.B.1), U.S. Department of Labor / Holland's RIASEC model.",
+      "url": "https://www.onetonline.org/find/descriptor/browse/1.B.1"
+    }
+  ]
+}

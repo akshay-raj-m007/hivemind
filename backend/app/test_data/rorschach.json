@@ -1,0 +1,428 @@
+{
+  "id": "rorschach",
+  "instructions": "Look at each inkblot and write what it might be. There are no right or wrong answers - describe whatever you see. You can mention more than one thing.",
+  "cards": [
+    {
+      "id": "card1",
+      "n": 1,
+      "roman": "I",
+      "image": "/tests/rorschach/01.jpg",
+      "popular_responses": [
+        {
+          "source": "Beck",
+          "text": "bat, butterfly, moth"
+        },
+        {
+          "source": "Piotrowski",
+          "text": "bat (53%), butterfly (29%)"
+        },
+        {
+          "source": "Dana (France)",
+          "text": "butterfly (39%)"
+        }
+      ],
+      "match_terms": {
+        "bat/butterfly/moth": [
+          "bat",
+          "bats",
+          "butterfly",
+          "butterflies",
+          "moth",
+          "moths"
+        ]
+      }
+    },
+    {
+      "id": "card2",
+      "n": 2,
+      "roman": "II",
+      "image": "/tests/rorschach/02.jpg",
+      "popular_responses": [
+        {
+          "source": "Beck",
+          "text": "two humans"
+        },
+        {
+          "source": "Piotrowski",
+          "text": "four-legged animal (34%, gray parts)"
+        },
+        {
+          "source": "Dana (France)",
+          "text": "animal: dog, elephant, bear (50%, gray)"
+        }
+      ],
+      "match_terms": {
+        "two humans": [
+          "human",
+          "humans",
+          "person",
+          "persons",
+          "people",
+          "man",
+          "men",
+          "woman",
+          "women",
+          "lady",
+          "ladies",
+          "figure",
+          "figures",
+          "girl",
+          "girls",
+          "boy",
+          "boys",
+          "child",
+          "children"
+        ],
+        "four-legged animal (dog, elephant, bear)": [
+          "animal",
+          "animals",
+          "dog",
+          "dogs",
+          "elephant",
+          "elephants",
+          "bear",
+          "bears",
+          "four-legged",
+          "puppy",
+          "puppies"
+        ]
+      }
+    },
+    {
+      "id": "card3",
+      "n": 3,
+      "roman": "III",
+      "image": "/tests/rorschach/03.jpg",
+      "popular_responses": [
+        {
+          "source": "Beck",
+          "text": "two humans (gray)"
+        },
+        {
+          "source": "Piotrowski",
+          "text": "human figures (72%, gray)"
+        },
+        {
+          "source": "Dana (France)",
+          "text": "human (76%, gray)"
+        }
+      ],
+      "match_terms": {
+        "human figures": [
+          "human",
+          "humans",
+          "person",
+          "persons",
+          "people",
+          "man",
+          "men",
+          "woman",
+          "women",
+          "lady",
+          "ladies",
+          "figure",
+          "figures",
+          "girl",
+          "girls",
+          "boy",
+          "boys",
+          "child",
+          "children"
+        ]
+      }
+    },
+    {
+      "id": "card4",
+      "n": 4,
+      "roman": "IV",
+      "image": "/tests/rorschach/04.jpg",
+      "popular_responses": [
+        {
+          "source": "Beck",
+          "text": "animal hide, skin, rug"
+        },
+        {
+          "source": "Piotrowski",
+          "text": "animal skin, skin rug (41%)"
+        },
+        {
+          "source": "Dana (France)",
+          "text": "animal skin (46%)"
+        }
+      ],
+      "match_terms": {
+        "animal hide / skin / rug": [
+          "hide",
+          "skin",
+          "skins",
+          "rug",
+          "pelt",
+          "fur"
+        ]
+      }
+    },
+    {
+      "id": "card5",
+      "n": 5,
+      "roman": "V",
+      "image": "/tests/rorschach/05.jpg",
+      "popular_responses": [
+        {
+          "source": "Beck",
+          "text": "bat, butterfly, moth"
+        },
+        {
+          "source": "Piotrowski",
+          "text": "butterfly (48%), bat (40%)"
+        },
+        {
+          "source": "Dana (France)",
+          "text": "butterfly (48%), bat (46%)"
+        }
+      ],
+      "match_terms": {
+        "bat/butterfly/moth": [
+          "bat",
+          "bats",
+          "butterfly",
+          "butterflies",
+          "moth",
+          "moths"
+        ]
+      }
+    },
+    {
+      "id": "card6",
+      "n": 6,
+      "roman": "VI",
+      "image": "/tests/rorschach/06.jpg",
+      "popular_responses": [
+        {
+          "source": "Beck",
+          "text": "animal hide, skin, rug"
+        },
+        {
+          "source": "Piotrowski",
+          "text": "animal skin, skin rug (41%)"
+        },
+        {
+          "source": "Dana (France)",
+          "text": "animal skin (46%)"
+        }
+      ],
+      "match_terms": {
+        "animal hide / skin / rug": [
+          "hide",
+          "skin",
+          "skins",
+          "rug",
+          "pelt",
+          "fur"
+        ]
+      }
+    },
+    {
+      "id": "card7",
+      "n": 7,
+      "roman": "VII",
+      "image": "/tests/rorschach/07.jpg",
+      "popular_responses": [
+        {
+          "source": "Beck",
+          "text": "human heads or faces (top)"
+        },
+        {
+          "source": "Piotrowski",
+          "text": "heads of women or children (27%, top)"
+        },
+        {
+          "source": "Dana (France)",
+          "text": "human head (46%, top)"
+        }
+      ],
+      "match_terms": {
+        "human heads or faces": [
+          "head",
+          "heads",
+          "face",
+          "faces",
+          "human",
+          "humans",
+          "person",
+          "persons",
+          "people",
+          "man",
+          "men",
+          "woman",
+          "women",
+          "lady",
+          "ladies",
+          "figure",
+          "figures",
+          "girl",
+          "girls",
+          "boy",
+          "boys",
+          "child",
+          "children"
+        ]
+      }
+    },
+    {
+      "id": "card8",
+      "n": 8,
+      "roman": "VIII",
+      "image": "/tests/rorschach/08.jpg",
+      "popular_responses": [
+        {
+          "source": "Beck",
+          "text": "animal: not cat or dog (pink)"
+        },
+        {
+          "source": "Piotrowski",
+          "text": "four-legged animal (94%, pink)"
+        },
+        {
+          "source": "Dana (France)",
+          "text": "four-legged animal (93%, pink)"
+        }
+      ],
+      "match_terms": {
+        "four-legged animal (not cat or dog)": [
+          "animal",
+          "animals",
+          "bear",
+          "bears",
+          "wolf",
+          "wolves",
+          "lion",
+          "lions",
+          "tiger",
+          "tigers",
+          "leopard",
+          "panther",
+          "rat",
+          "rats",
+          "mouse",
+          "mice",
+          "beaver",
+          "badger",
+          "pig",
+          "pigs",
+          "boar",
+          "squirrel",
+          "lizard",
+          "lizards",
+          "chameleon",
+          "chameleons",
+          "fox",
+          "raccoon",
+          "rodent",
+          "rodents",
+          "opossum",
+          "possum"
+        ]
+      }
+    },
+    {
+      "id": "card9",
+      "n": 9,
+      "roman": "IX",
+      "image": "/tests/rorschach/09.jpg",
+      "popular_responses": [
+        {
+          "source": "Beck",
+          "text": "human (orange)"
+        },
+        {
+          "source": "Piotrowski",
+          "text": "none"
+        },
+        {
+          "source": "Dana (France)",
+          "text": "none"
+        }
+      ],
+      "match_terms": {
+        "human": [
+          "human",
+          "humans",
+          "person",
+          "persons",
+          "people",
+          "man",
+          "men",
+          "woman",
+          "women",
+          "lady",
+          "ladies",
+          "figure",
+          "figures",
+          "girl",
+          "girls",
+          "boy",
+          "boys",
+          "child",
+          "children"
+        ]
+      }
+    },
+    {
+      "id": "card10",
+      "n": 10,
+      "roman": "X",
+      "image": "/tests/rorschach/10.jpg",
+      "popular_responses": [
+        {
+          "source": "Beck",
+          "text": "crab, lobster, spider (blue)"
+        },
+        {
+          "source": "Piotrowski",
+          "text": "crab, spider (37%, blue), rabbit head (31%, light green), caterpillars, worms, snakes (28%, deep green)"
+        },
+        {
+          "source": "Dana (France)",
+          "text": "none"
+        }
+      ],
+      "match_terms": {
+        "crab/lobster/spider": [
+          "crab",
+          "crabs",
+          "lobster",
+          "lobsters",
+          "spider",
+          "spiders"
+        ],
+        "rabbit head": [
+          "rabbit",
+          "rabbits",
+          "bunny"
+        ],
+        "caterpillars/worms/snakes": [
+          "caterpillar",
+          "caterpillars",
+          "worm",
+          "worms",
+          "snake",
+          "snakes"
+        ]
+      }
+    }
+  ],
+  "popular_definition": "Popular responses are percepts given by a large share of test-takers. In Exner's system, a 'popular' response is one given by at least one third of the North American normative sample; popularity and originality are basic dimensions of the analysis.",
+  "matching_note": "Your answer counts as a popular response when it names a percept listed for that card. Plain-English equivalents (for example 'people' for 'humans') are counted. The app does not code location, determinants or form quality, which require a trained examiner.",
+  "sources": [
+    {
+      "what": "Plates (public domain) and popular-response table",
+      "cite": "Wikipedia, 'Rorschach test' - table citing Burstein & Loucks (1989), Piotrowski (1987) and Dana (2000). Note: the table lists identical populars for cards IV and VI.",
+      "url": "https://en.wikipedia.org/wiki/Rorschach_test"
+    },
+    {
+      "what": "Original plates",
+      "cite": "Rorschach, H. (1921/1927). Psychodiagnostik - Psychodiagnostic Plates.",
+      "url": "https://commons.wikimedia.org/wiki/Category:Rorschach_inkblots"
+    }
+  ]
+}

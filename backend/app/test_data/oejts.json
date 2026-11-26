@@ -1,0 +1,646 @@
+{
+  "id": "jungian-type",
+  "instructions": "Each item is a pair of opposing descriptions on a five-point scale. Choose the point that best reflects your personality: from all of one, to a mix of the two, to all of the other.",
+  "items": [
+    {
+      "id": "q1",
+      "n": 1,
+      "left": "makes lists",
+      "right": "relies on memory",
+      "dimension": "JP",
+      "right_pole": "P",
+      "left_pole": "J",
+      "evidence": {
+        "dev_table_mean_differences": [
+          "0.06E",
+          "0.14N",
+          "0.13T",
+          "0.75P"
+        ],
+        "statements_reversed_in_table": false
+      }
+    },
+    {
+      "id": "q2",
+      "n": 2,
+      "left": "sceptical",
+      "right": "wants to believe",
+      "dimension": "FT",
+      "right_pole": "F",
+      "left_pole": "T",
+      "evidence": {
+        "dev_table_mean_differences": [
+          "0.46E",
+          "0.18S",
+          "1.17F",
+          "0.18P"
+        ],
+        "statements_reversed_in_table": false
+      }
+    },
+    {
+      "id": "q3",
+      "n": 3,
+      "left": "bored by time alone",
+      "right": "needs time alone",
+      "dimension": "IE",
+      "right_pole": "I",
+      "left_pole": "E",
+      "evidence": {
+        "dev_table_mean_differences": [
+          "1.44E",
+          "0.18S",
+          "0.18F",
+          "0.22P"
+        ],
+        "statements_reversed_in_table": true
+      }
+    },
+    {
+      "id": "q4",
+      "n": 4,
+      "left": "accepts things as they are",
+      "right": "unsatisfied with the ways things are",
+      "dimension": "SN",
+      "right_pole": "N",
+      "left_pole": "S",
+      "evidence": {
+        "dev_table_mean_differences": [
+          "0.06I",
+          "0.55N",
+          "0.15T",
+          "0.00P"
+        ],
+        "statements_reversed_in_table": false
+      }
+    },
+    {
+      "id": "q5",
+      "n": 5,
+      "left": "keeps a clean room",
+      "right": "just puts stuff wherever",
+      "dimension": "JP",
+      "right_pole": "P",
+      "left_pole": "J",
+      "evidence": {
+        "dev_table_mean_differences": [
+          "0.05E",
+          "0.15N",
+          "0.19F",
+          "0.93P"
+        ],
+        "statements_reversed_in_table": false
+      }
+    },
+    {
+      "id": "q6",
+      "n": 6,
+      "left": "thinks \"robotic\" is an insult",
+      "right": "strives to have a mechanical mind",
+      "dimension": "FT",
+      "right_pole": "T",
+      "left_pole": "F",
+      "evidence": {
+        "dev_table_mean_differences": [
+          "0.45I",
+          "0.02S",
+          "1.21T",
+          "0.41J"
+        ],
+        "statements_reversed_in_table": false
+      }
+    },
+    {
+      "id": "q7",
+      "n": 7,
+      "left": "energetic",
+      "right": "mellow",
+      "dimension": "IE",
+      "right_pole": "I",
+      "left_pole": "E",
+      "evidence": {
+        "dev_table_mean_differences": [
+          "1.24I",
+          "0.11N",
+          "0.15T",
+          "0.05P"
+        ],
+        "statements_reversed_in_table": false
+      }
+    },
+    {
+      "id": "q8",
+      "n": 8,
+      "left": "prefers multiple-choice tests",
+      "right": "prefers essay questions",
+      "dimension": "SN",
+      "right_pole": "N",
+      "left_pole": "S",
+      "evidence": {
+        "dev_table_mean_differences": [
+          "0.16E",
+          "0.47N",
+          "0.08F",
+          "0.01J"
+        ],
+        "statements_reversed_in_table": false
+      }
+    },
+    {
+      "id": "q9",
+      "n": 9,
+      "left": "chaotic",
+      "right": "organized",
+      "dimension": "JP",
+      "right_pole": "J",
+      "left_pole": "P",
+      "evidence": {
+        "dev_table_mean_differences": [
+          "0.16E",
+          "0.21N",
+          "0.25F",
+          "1.15P"
+        ],
+        "statements_reversed_in_table": true
+      }
+    },
+    {
+      "id": "q10",
+      "n": 10,
+      "left": "easily hurt",
+      "right": "thick-skinned",
+      "dimension": "FT",
+      "right_pole": "T",
+      "left_pole": "F",
+      "evidence": {
+        "dev_table_mean_differences": [
+          "0.22E",
+          "0.08N",
+          "1.10T",
+          "0.08J"
+        ],
+        "statements_reversed_in_table": false
+      }
+    },
+    {
+      "id": "q11",
+      "n": 11,
+      "left": "works best in groups",
+      "right": "works best alone",
+      "dimension": "IE",
+      "right_pole": "I",
+      "left_pole": "E",
+      "evidence": {
+        "dev_table_mean_differences": [
+          "1.19E",
+          "0.09S",
+          "0.33F",
+          "0.21P"
+        ],
+        "statements_reversed_in_table": true
+      }
+    },
+    {
+      "id": "q12",
+      "n": 12,
+      "left": "focused on the present",
+      "right": "focused on the future",
+      "dimension": "SN",
+      "right_pole": "N",
+      "left_pole": "S",
+      "evidence": {
+        "dev_table_mean_differences": [
+          "0.04I",
+          "0.72N",
+          "0.10T",
+          "0.23J"
+        ],
+        "statements_reversed_in_table": false
+      }
+    },
+    {
+      "id": "q13",
+      "n": 13,
+      "left": "plans far ahead",
+      "right": "plans at the last minute",
+      "dimension": "JP",
+      "right_pole": "P",
+      "left_pole": "J",
+      "evidence": {
+        "dev_table_mean_differences": [
+          "0.30E",
+          "0.04S",
+          "0.29F",
+          "1.26P"
+        ],
+        "statements_reversed_in_table": false
+      }
+    },
+    {
+      "id": "q14",
+      "n": 14,
+      "left": "wants people's respect",
+      "right": "wants their love",
+      "dimension": "FT",
+      "right_pole": "F",
+      "left_pole": "T",
+      "evidence": {
+        "dev_table_mean_differences": [
+          "0.22E",
+          "0.37S",
+          "1.18F",
+          "0.40P"
+        ],
+        "statements_reversed_in_table": false
+      }
+    },
+    {
+      "id": "q15",
+      "n": 15,
+      "left": "gets worn out by parties",
+      "right": "gets fired up by parties",
+      "dimension": "IE",
+      "right_pole": "E",
+      "left_pole": "I",
+      "evidence": {
+        "dev_table_mean_differences": [
+          "1.77E",
+          "0.20S",
+          "0.21F",
+          "0.35P"
+        ],
+        "statements_reversed_in_table": false
+      }
+    },
+    {
+      "id": "q16",
+      "n": 16,
+      "left": "fits in",
+      "right": "stands out",
+      "dimension": "SN",
+      "right_pole": "N",
+      "left_pole": "S",
+      "evidence": {
+        "dev_table_mean_differences": [
+          "0.04I",
+          "0.48N",
+          "0.14T",
+          "0.18P"
+        ],
+        "statements_reversed_in_table": false
+      }
+    },
+    {
+      "id": "q17",
+      "n": 17,
+      "left": "keeps options open",
+      "right": "commits",
+      "dimension": "JP",
+      "right_pole": "J",
+      "left_pole": "P",
+      "evidence": {
+        "dev_table_mean_differences": [
+          "0.04E",
+          "0.25N",
+          "0.14T",
+          "0.87P"
+        ],
+        "statements_reversed_in_table": true
+      }
+    },
+    {
+      "id": "q18",
+      "n": 18,
+      "left": "wants to be good at fixing things",
+      "right": "wants to be good at fixing people",
+      "dimension": "FT",
+      "right_pole": "F",
+      "left_pole": "T",
+      "evidence": {
+        "dev_table_mean_differences": [
+          "0.40E",
+          "0.04S",
+          "1.28F",
+          "0.10P"
+        ],
+        "statements_reversed_in_table": false
+      }
+    },
+    {
+      "id": "q19",
+      "n": 19,
+      "left": "talks more",
+      "right": "listens more",
+      "dimension": "IE",
+      "right_pole": "I",
+      "left_pole": "E",
+      "evidence": {
+        "dev_table_mean_differences": [
+          "1.37E",
+          "0.06S",
+          "0.09F",
+          "0.23P"
+        ],
+        "statements_reversed_in_table": true
+      }
+    },
+    {
+      "id": "q20",
+      "n": 20,
+      "left": "when describing an event, will tell people what happened",
+      "right": "when describing an event, will tell people what it meant",
+      "dimension": "SN",
+      "right_pole": "N",
+      "left_pole": "S",
+      "evidence": {
+        "dev_table_mean_differences": [
+          "0.03I",
+          "0.74N",
+          "0.26F",
+          "0.15P"
+        ],
+        "statements_reversed_in_table": false
+      }
+    },
+    {
+      "id": "q21",
+      "n": 21,
+      "left": "gets work done right away",
+      "right": "procrastinates",
+      "dimension": "JP",
+      "right_pole": "P",
+      "left_pole": "J",
+      "evidence": {
+        "dev_table_mean_differences": [
+          "0.10I",
+          "0.11N",
+          "0.29F",
+          "0.93P"
+        ],
+        "statements_reversed_in_table": false
+      }
+    },
+    {
+      "id": "q22",
+      "n": 22,
+      "left": "follows the heart",
+      "right": "follows the head",
+      "dimension": "FT",
+      "right_pole": "T",
+      "left_pole": "F",
+      "evidence": {
+        "dev_table_mean_differences": [
+          "0.36I",
+          "0.01N",
+          "1.60T",
+          "0.45J"
+        ],
+        "statements_reversed_in_table": false
+      }
+    },
+    {
+      "id": "q23",
+      "n": 23,
+      "left": "stays at home",
+      "right": "goes out on the town",
+      "dimension": "IE",
+      "right_pole": "E",
+      "left_pole": "I",
+      "evidence": {
+        "dev_table_mean_differences": [
+          "1.43E",
+          "0.05S",
+          "0.18F",
+          "0.26P"
+        ],
+        "statements_reversed_in_table": false
+      }
+    },
+    {
+      "id": "q24",
+      "n": 24,
+      "left": "wants the big picture",
+      "right": "wants the details",
+      "dimension": "SN",
+      "right_pole": "S",
+      "left_pole": "N",
+      "evidence": {
+        "dev_table_mean_differences": [
+          "0.28I",
+          "0.63S",
+          "0.03T",
+          "0.18J"
+        ],
+        "statements_reversed_in_table": false
+      }
+    },
+    {
+      "id": "q25",
+      "n": 25,
+      "left": "improvises",
+      "right": "prepares",
+      "dimension": "JP",
+      "right_pole": "J",
+      "left_pole": "P",
+      "evidence": {
+        "dev_table_mean_differences": [
+          "0.43E",
+          "0.28N",
+          "0.15F",
+          "1.43P"
+        ],
+        "statements_reversed_in_table": true
+      }
+    },
+    {
+      "id": "q26",
+      "n": 26,
+      "left": "bases morality on justice",
+      "right": "bases morality on compassion",
+      "dimension": "FT",
+      "right_pole": "F",
+      "left_pole": "T",
+      "evidence": {
+        "dev_table_mean_differences": [
+          "0.16I",
+          "0.02S",
+          "1.32T",
+          "0.39J"
+        ],
+        "statements_reversed_in_table": true
+      }
+    },
+    {
+      "id": "q27",
+      "n": 27,
+      "left": "finds it difficult to yell very loudly",
+      "right": "yelling to others when they are far away comes naturally",
+      "dimension": "IE",
+      "right_pole": "E",
+      "left_pole": "I",
+      "evidence": {
+        "dev_table_mean_differences": [
+          "1.40E",
+          "0.11S",
+          "0.05F",
+          "0.18P"
+        ],
+        "statements_reversed_in_table": false
+      }
+    },
+    {
+      "id": "q28",
+      "n": 28,
+      "left": "theoretical",
+      "right": "empirical",
+      "dimension": "SN",
+      "right_pole": "S",
+      "left_pole": "N",
+      "evidence": {
+        "dev_table_mean_differences": [
+          "0.16I",
+          "0.71N",
+          "0.11T",
+          "0.22P"
+        ],
+        "statements_reversed_in_table": true
+      }
+    },
+    {
+      "id": "q29",
+      "n": 29,
+      "left": "works hard",
+      "right": "plays hard",
+      "dimension": "JP",
+      "right_pole": "P",
+      "left_pole": "J",
+      "evidence": {
+        "dev_table_mean_differences": [
+          "0.31E",
+          "0.02S",
+          "0.21F",
+          "0.82P"
+        ],
+        "statements_reversed_in_table": false
+      }
+    },
+    {
+      "id": "q30",
+      "n": 30,
+      "left": "uncomfortable with emotions",
+      "right": "values emotions",
+      "dimension": "FT",
+      "right_pole": "F",
+      "left_pole": "T",
+      "evidence": {
+        "dev_table_mean_differences": [
+          "0.55I",
+          "0.03N",
+          "1.67T",
+          "0.22J"
+        ],
+        "statements_reversed_in_table": true
+      }
+    },
+    {
+      "id": "q31",
+      "n": 31,
+      "left": "likes to perform in front of other people",
+      "right": "avoids public speaking",
+      "dimension": "IE",
+      "right_pole": "I",
+      "left_pole": "E",
+      "evidence": {
+        "dev_table_mean_differences": [
+          "1.41I",
+          "0.10S",
+          "0.04T",
+          "0.05J"
+        ],
+        "statements_reversed_in_table": false
+      }
+    },
+    {
+      "id": "q32",
+      "n": 32,
+      "left": "likes to know \"who?,\" \"what?,\" \"when?\"",
+      "right": "likes to know \"why?\"",
+      "dimension": "SN",
+      "right_pole": "N",
+      "left_pole": "S",
+      "evidence": {
+        "dev_table_mean_differences": [
+          "0.18I",
+          "0.73N",
+          "0.04T",
+          "0.19P"
+        ],
+        "statements_reversed_in_table": false
+      }
+    }
+  ],
+  "dimensions": {
+    "IE": {
+      "poles": [
+        "I",
+        "E"
+      ],
+      "names": {
+        "I": "Introversion",
+        "E": "Extraversion"
+      },
+      "definition": "Sometimes described as a person's orientation, either oriented inside themselves or to the outside world. Other times the focus is put more explicitly on social interaction, with some claiming that social interactions wear out introverts whereas social interaction raises the energy level in extroverts."
+    },
+    "SN": {
+      "poles": [
+        "S",
+        "N"
+      ],
+      "names": {
+        "S": "Sensing",
+        "N": "Intuition"
+      },
+      "definition": "Defined as how a person takes in information by Myers-Briggs, who said that sensors pay attention to the five senses while intuitives pay attention to possibilities."
+    },
+    "FT": {
+      "poles": [
+        "F",
+        "T"
+      ],
+      "names": {
+        "F": "Feeling",
+        "T": "Thinking"
+      },
+      "definition": "Has been defined as what a person values and what they base their decisions on: either interpersonal considerations or dispassionate logic."
+    },
+    "JP": {
+      "poles": [
+        "J",
+        "P"
+      ],
+      "names": {
+        "J": "Judging",
+        "P": "Perceiving"
+      },
+      "definition": "Individuals who prefer a structured lifestyle are said to lean Judging; individuals who prefer a flexible lifestyle are said to lean Perceiving."
+    }
+  },
+  "scoring": {
+    "method": "Each item is scored 1-5 from left to right. For each dimension, items are oriented so that a higher value always points to the same pole, then summed (range 8-40). 24 is the midpoint.",
+    "midpoint": 24
+  },
+  "license": "Open Extended Jungian Type Scales by Open Psychometrics, CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/) - non-commercial use only.",
+  "sources": [
+    {
+      "what": "Test, item statistics and dichotomy definitions",
+      "cite": "Jorgenson, E. (2014). Development of the Open Extended Jungian Type Scales 1.2. Open Psychometrics.",
+      "url": "https://openpsychometrics.org/tests/OEJTS/development/"
+    },
+    {
+      "what": "32-item form wording",
+      "cite": "OEJTS 1.2 answer sheet as reproduced by psytests.org; each item was matched to the author's development table above.",
+      "url": "https://psytests.org/opm/oejtsen-bl.html"
+    }
+  ],
+  "trademark_note": "MBTI and Myers-Briggs Type Indicator are trademarks of The Myers-Briggs Company. The OEJTS is not the MBTI."
+}

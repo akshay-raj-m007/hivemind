@@ -1,0 +1,782 @@
+{
+  "id": "big-five",
+  "instructions": "Describe yourself as you generally are now, not as you wish to be in the future. Describe yourself as you honestly see yourself, in relation to other people you know of the same sex as you are, and roughly your same age. Indicate for each statement how accurately it describes you.",
+  "scale": [
+    {
+      "value": 1,
+      "label": "Very Inaccurate"
+    },
+    {
+      "value": 2,
+      "label": "Moderately Inaccurate"
+    },
+    {
+      "value": 3,
+      "label": "Neither Accurate Nor Inaccurate"
+    },
+    {
+      "value": 4,
+      "label": "Moderately Accurate"
+    },
+    {
+      "value": 5,
+      "label": "Very Accurate"
+    }
+  ],
+  "items": [
+    {
+      "id": "ipip1",
+      "n": 1,
+      "text": "Am the life of the party.",
+      "factor": "E",
+      "key": 1,
+      "dataset_code": "E1"
+    },
+    {
+      "id": "ipip2",
+      "n": 2,
+      "text": "Feel little concern for others.",
+      "factor": "A",
+      "key": -1,
+      "dataset_code": "A1"
+    },
+    {
+      "id": "ipip3",
+      "n": 3,
+      "text": "Am always prepared.",
+      "factor": "C",
+      "key": 1,
+      "dataset_code": "C1"
+    },
+    {
+      "id": "ipip4",
+      "n": 4,
+      "text": "Get stressed out easily.",
+      "factor": "ES",
+      "key": -1,
+      "dataset_code": "N1"
+    },
+    {
+      "id": "ipip5",
+      "n": 5,
+      "text": "Have a rich vocabulary.",
+      "factor": "O",
+      "key": 1,
+      "dataset_code": "O1"
+    },
+    {
+      "id": "ipip6",
+      "n": 6,
+      "text": "Don't talk a lot.",
+      "factor": "E",
+      "key": -1,
+      "dataset_code": "E2"
+    },
+    {
+      "id": "ipip7",
+      "n": 7,
+      "text": "Am interested in people.",
+      "factor": "A",
+      "key": 1,
+      "dataset_code": "A2"
+    },
+    {
+      "id": "ipip8",
+      "n": 8,
+      "text": "Leave my belongings around.",
+      "factor": "C",
+      "key": -1,
+      "dataset_code": "C2"
+    },
+    {
+      "id": "ipip9",
+      "n": 9,
+      "text": "Am relaxed most of the time.",
+      "factor": "ES",
+      "key": 1,
+      "dataset_code": "N2"
+    },
+    {
+      "id": "ipip10",
+      "n": 10,
+      "text": "Have difficulty understanding abstract ideas.",
+      "factor": "O",
+      "key": -1,
+      "dataset_code": "O2"
+    },
+    {
+      "id": "ipip11",
+      "n": 11,
+      "text": "Feel comfortable around people.",
+      "factor": "E",
+      "key": 1,
+      "dataset_code": "E3"
+    },
+    {
+      "id": "ipip12",
+      "n": 12,
+      "text": "Insult people.",
+      "factor": "A",
+      "key": -1,
+      "dataset_code": "A3"
+    },
+    {
+      "id": "ipip13",
+      "n": 13,
+      "text": "Pay attention to details.",
+      "factor": "C",
+      "key": 1,
+      "dataset_code": "C3"
+    },
+    {
+      "id": "ipip14",
+      "n": 14,
+      "text": "Worry about things.",
+      "factor": "ES",
+      "key": -1,
+      "dataset_code": "N3"
+    },
+    {
+      "id": "ipip15",
+      "n": 15,
+      "text": "Have a vivid imagination.",
+      "factor": "O",
+      "key": 1,
+      "dataset_code": "O3"
+    },
+    {
+      "id": "ipip16",
+      "n": 16,
+      "text": "Keep in the background.",
+      "factor": "E",
+      "key": -1,
+      "dataset_code": "E4"
+    },
+    {
+      "id": "ipip17",
+      "n": 17,
+      "text": "Sympathize with others' feelings.",
+      "factor": "A",
+      "key": 1,
+      "dataset_code": "A4"
+    },
+    {
+      "id": "ipip18",
+      "n": 18,
+      "text": "Make a mess of things.",
+      "factor": "C",
+      "key": -1,
+      "dataset_code": "C4"
+    },
+    {
+      "id": "ipip19",
+      "n": 19,
+      "text": "Seldom feel blue.",
+      "factor": "ES",
+      "key": 1,
+      "dataset_code": "N4"
+    },
+    {
+      "id": "ipip20",
+      "n": 20,
+      "text": "Am not interested in abstract ideas.",
+      "factor": "O",
+      "key": -1,
+      "dataset_code": "O4"
+    },
+    {
+      "id": "ipip21",
+      "n": 21,
+      "text": "Start conversations.",
+      "factor": "E",
+      "key": 1,
+      "dataset_code": "E5"
+    },
+    {
+      "id": "ipip22",
+      "n": 22,
+      "text": "Am not interested in other people's problems.",
+      "factor": "A",
+      "key": -1,
+      "dataset_code": "A5"
+    },
+    {
+      "id": "ipip23",
+      "n": 23,
+      "text": "Get chores done right away.",
+      "factor": "C",
+      "key": 1,
+      "dataset_code": "C5"
+    },
+    {
+      "id": "ipip24",
+      "n": 24,
+      "text": "Am easily disturbed.",
+      "factor": "ES",
+      "key": -1,
+      "dataset_code": "N5"
+    },
+    {
+      "id": "ipip25",
+      "n": 25,
+      "text": "Have excellent ideas.",
+      "factor": "O",
+      "key": 1,
+      "dataset_code": "O5"
+    },
+    {
+      "id": "ipip26",
+      "n": 26,
+      "text": "Have little to say.",
+      "factor": "E",
+      "key": -1,
+      "dataset_code": "E6"
+    },
+    {
+      "id": "ipip27",
+      "n": 27,
+      "text": "Have a soft heart.",
+      "factor": "A",
+      "key": 1,
+      "dataset_code": "A6"
+    },
+    {
+      "id": "ipip28",
+      "n": 28,
+      "text": "Often forget to put things back in their proper place.",
+      "factor": "C",
+      "key": -1,
+      "dataset_code": "C6"
+    },
+    {
+      "id": "ipip29",
+      "n": 29,
+      "text": "Get upset easily.",
+      "factor": "ES",
+      "key": -1,
+      "dataset_code": "N6"
+    },
+    {
+      "id": "ipip30",
+      "n": 30,
+      "text": "Do not have a good imagination.",
+      "factor": "O",
+      "key": -1,
+      "dataset_code": "O6"
+    },
+    {
+      "id": "ipip31",
+      "n": 31,
+      "text": "Talk to a lot of different people at parties.",
+      "factor": "E",
+      "key": 1,
+      "dataset_code": "E7"
+    },
+    {
+      "id": "ipip32",
+      "n": 32,
+      "text": "Am not really interested in others.",
+      "factor": "A",
+      "key": -1,
+      "dataset_code": "A7"
+    },
+    {
+      "id": "ipip33",
+      "n": 33,
+      "text": "Like order.",
+      "factor": "C",
+      "key": 1,
+      "dataset_code": "C7"
+    },
+    {
+      "id": "ipip34",
+      "n": 34,
+      "text": "Change my mood a lot.",
+      "factor": "ES",
+      "key": -1,
+      "dataset_code": "N7"
+    },
+    {
+      "id": "ipip35",
+      "n": 35,
+      "text": "Am quick to understand things.",
+      "factor": "O",
+      "key": 1,
+      "dataset_code": "O7"
+    },
+    {
+      "id": "ipip36",
+      "n": 36,
+      "text": "Don't like to draw attention to myself.",
+      "factor": "E",
+      "key": -1,
+      "dataset_code": "E8"
+    },
+    {
+      "id": "ipip37",
+      "n": 37,
+      "text": "Take time out for others.",
+      "factor": "A",
+      "key": 1,
+      "dataset_code": "A8"
+    },
+    {
+      "id": "ipip38",
+      "n": 38,
+      "text": "Shirk my duties.",
+      "factor": "C",
+      "key": -1,
+      "dataset_code": "C8"
+    },
+    {
+      "id": "ipip39",
+      "n": 39,
+      "text": "Have frequent mood swings.",
+      "factor": "ES",
+      "key": -1,
+      "dataset_code": "N8"
+    },
+    {
+      "id": "ipip40",
+      "n": 40,
+      "text": "Use difficult words.",
+      "factor": "O",
+      "key": 1,
+      "dataset_code": "O8"
+    },
+    {
+      "id": "ipip41",
+      "n": 41,
+      "text": "Don't mind being the center of attention.",
+      "factor": "E",
+      "key": 1,
+      "dataset_code": "E9"
+    },
+    {
+      "id": "ipip42",
+      "n": 42,
+      "text": "Feel others' emotions.",
+      "factor": "A",
+      "key": 1,
+      "dataset_code": "A9"
+    },
+    {
+      "id": "ipip43",
+      "n": 43,
+      "text": "Follow a schedule.",
+      "factor": "C",
+      "key": 1,
+      "dataset_code": "C9"
+    },
+    {
+      "id": "ipip44",
+      "n": 44,
+      "text": "Get irritated easily.",
+      "factor": "ES",
+      "key": -1,
+      "dataset_code": "N9"
+    },
+    {
+      "id": "ipip45",
+      "n": 45,
+      "text": "Spend time reflecting on things.",
+      "factor": "O",
+      "key": 1,
+      "dataset_code": "O9"
+    },
+    {
+      "id": "ipip46",
+      "n": 46,
+      "text": "Am quiet around strangers.",
+      "factor": "E",
+      "key": -1,
+      "dataset_code": "E10"
+    },
+    {
+      "id": "ipip47",
+      "n": 47,
+      "text": "Make people feel at ease.",
+      "factor": "A",
+      "key": 1,
+      "dataset_code": "A10"
+    },
+    {
+      "id": "ipip48",
+      "n": 48,
+      "text": "Am exacting in my work.",
+      "factor": "C",
+      "key": 1,
+      "dataset_code": "C10"
+    },
+    {
+      "id": "ipip49",
+      "n": 49,
+      "text": "Often feel blue.",
+      "factor": "ES",
+      "key": -1,
+      "dataset_code": "N10"
+    },
+    {
+      "id": "ipip50",
+      "n": 50,
+      "text": "Am full of ideas.",
+      "factor": "O",
+      "key": 1,
+      "dataset_code": "O10"
+    }
+  ],
+  "factors": {
+    "E": {
+      "name": "Extraversion",
+      "definition": "Implies an energetic approach toward the social and material world and includes traits such as sociability, activity, assertiveness, and positive emotionality.",
+      "high": [
+        "talkative",
+        "assertive",
+        "active",
+        "energetic",
+        "outgoing",
+        "outspoken"
+      ],
+      "low": [
+        "quiet",
+        "reserved",
+        "shy",
+        "silent",
+        "retiring"
+      ]
+    },
+    "A": {
+      "name": "Agreeableness",
+      "definition": "Contrasts a prosocial and communal orientation towards others with antagonism and includes traits such as altruism, tender-mindedness, trust, and modesty.",
+      "high": [
+        "sympathetic",
+        "kind",
+        "appreciative",
+        "affectionate",
+        "soft-hearted",
+        "warm"
+      ],
+      "low": [
+        "fault-finding",
+        "stern",
+        "cold"
+      ]
+    },
+    "C": {
+      "name": "Conscientiousness",
+      "definition": "Describes socially prescribed impulse control that facilitates task- and goal-directed behavior, such as thinking before acting, delaying gratification, following norms and rules, and planning, organizing, and prioritizing tasks.",
+      "high": [
+        "organized",
+        "thorough",
+        "planful",
+        "efficient",
+        "responsible",
+        "reliable"
+      ],
+      "low": [
+        "careless",
+        "disorderly",
+        "forgetful"
+      ]
+    },
+    "ES": {
+      "name": "Emotional Stability",
+      "note": "IPIP scores this factor as Emotional Stability, the opposite pole of Neuroticism.",
+      "definition": "Contrasts emotional stability and even-temperedness with negative emotionality, such as feeling anxious, nervous, sad, and tense.",
+      "high": [
+        "stable",
+        "calm",
+        "contented"
+      ],
+      "low": [
+        "tense",
+        "anxious",
+        "nervous",
+        "moody",
+        "worrying",
+        "touchy"
+      ]
+    },
+    "O": {
+      "name": "Openness / Intellect",
+      "note": "IPIP labels this factor Intellect/Imagination; John et al. call it Openness to Experience.",
+      "definition": "Describes the breadth, depth, originality, and complexity of an individual's mental and experiential life.",
+      "high": [
+        "wide interests",
+        "imaginative",
+        "intelligent",
+        "original",
+        "insightful",
+        "curious"
+      ],
+      "low": [
+        "commonplace",
+        "narrow interests"
+      ]
+    }
+  },
+  "norms": {
+    "E": {
+      "n": 19718,
+      "mean": 30.11,
+      "sd": 9.22,
+      "percentile_by_score": {
+        "10": 0.5,
+        "11": 1.3,
+        "12": 2.1,
+        "13": 3.0,
+        "14": 4.2,
+        "15": 5.6,
+        "16": 7.1,
+        "17": 8.8,
+        "18": 10.8,
+        "19": 13.0,
+        "20": 15.4,
+        "21": 18.0,
+        "22": 20.9,
+        "23": 24.0,
+        "24": 27.2,
+        "25": 30.7,
+        "26": 34.4,
+        "27": 38.0,
+        "28": 41.6,
+        "29": 45.4,
+        "30": 49.3,
+        "31": 53.3,
+        "32": 57.2,
+        "33": 60.9,
+        "34": 64.6,
+        "35": 68.2,
+        "36": 71.5,
+        "37": 74.7,
+        "38": 77.9,
+        "39": 80.9,
+        "40": 83.7,
+        "41": 86.3,
+        "42": 88.8,
+        "43": 91.1,
+        "44": 93.0,
+        "45": 94.7,
+        "46": 96.2,
+        "47": 97.4,
+        "48": 98.3,
+        "49": 99.1,
+        "50": 99.7
+      }
+    },
+    "A": {
+      "n": 19718,
+      "mean": 38.45,
+      "sd": 7.15,
+      "percentile_by_score": {
+        "10": 0.0,
+        "11": 0.1,
+        "12": 0.1,
+        "13": 0.2,
+        "14": 0.3,
+        "15": 0.5,
+        "16": 0.6,
+        "17": 0.8,
+        "18": 1.1,
+        "19": 1.4,
+        "20": 1.7,
+        "21": 2.2,
+        "22": 2.8,
+        "23": 3.5,
+        "24": 4.2,
+        "25": 5.0,
+        "26": 6.0,
+        "27": 7.2,
+        "28": 8.7,
+        "29": 10.4,
+        "30": 12.3,
+        "31": 14.6,
+        "32": 17.2,
+        "33": 20.3,
+        "34": 24.0,
+        "35": 27.9,
+        "36": 32.4,
+        "37": 37.2,
+        "38": 42.5,
+        "39": 48.3,
+        "40": 54.0,
+        "41": 59.7,
+        "42": 65.3,
+        "43": 70.8,
+        "44": 76.0,
+        "45": 81.0,
+        "46": 85.9,
+        "47": 90.2,
+        "48": 93.6,
+        "49": 96.5,
+        "50": 98.8
+      }
+    },
+    "C": {
+      "n": 19718,
+      "mean": 33.47,
+      "sd": 7.31,
+      "percentile_by_score": {
+        "10": 0.0,
+        "11": 0.0,
+        "12": 0.1,
+        "13": 0.2,
+        "14": 0.3,
+        "15": 0.6,
+        "16": 0.8,
+        "17": 1.2,
+        "18": 1.7,
+        "19": 2.4,
+        "20": 3.3,
+        "21": 4.5,
+        "22": 6.1,
+        "23": 7.9,
+        "24": 10.2,
+        "25": 12.9,
+        "26": 16.1,
+        "27": 19.7,
+        "28": 23.5,
+        "29": 27.8,
+        "30": 32.4,
+        "31": 37.2,
+        "32": 42.1,
+        "33": 47.1,
+        "34": 52.3,
+        "35": 57.7,
+        "36": 62.7,
+        "37": 67.5,
+        "38": 72.2,
+        "39": 76.5,
+        "40": 80.2,
+        "41": 83.7,
+        "42": 86.8,
+        "43": 89.5,
+        "44": 91.9,
+        "45": 94.0,
+        "46": 95.7,
+        "47": 97.1,
+        "48": 98.2,
+        "49": 99.0,
+        "50": 99.7
+      }
+    },
+    "ES": {
+      "n": 19718,
+      "mean": 29.03,
+      "sd": 8.62,
+      "percentile_by_score": {
+        "10": 0.3,
+        "11": 0.9,
+        "12": 1.5,
+        "13": 2.3,
+        "14": 3.5,
+        "15": 5.0,
+        "16": 6.7,
+        "17": 8.5,
+        "18": 10.8,
+        "19": 13.3,
+        "20": 16.2,
+        "21": 19.6,
+        "22": 23.0,
+        "23": 26.5,
+        "24": 30.2,
+        "25": 34.0,
+        "26": 37.9,
+        "27": 42.0,
+        "28": 46.1,
+        "29": 50.3,
+        "30": 54.6,
+        "31": 58.7,
+        "32": 62.8,
+        "33": 66.8,
+        "34": 70.6,
+        "35": 74.1,
+        "36": 77.5,
+        "37": 80.6,
+        "38": 83.6,
+        "39": 86.3,
+        "40": 88.7,
+        "41": 90.8,
+        "42": 92.6,
+        "43": 94.2,
+        "44": 95.5,
+        "45": 96.6,
+        "46": 97.6,
+        "47": 98.4,
+        "48": 99.0,
+        "49": 99.5,
+        "50": 99.8
+      }
+    },
+    "O": {
+      "n": 19718,
+      "mean": 39.09,
+      "sd": 6.26,
+      "percentile_by_score": {
+        "10": 0.0,
+        "11": 0.0,
+        "12": 0.0,
+        "13": 0.0,
+        "14": 0.0,
+        "15": 0.1,
+        "16": 0.1,
+        "17": 0.1,
+        "18": 0.2,
+        "19": 0.3,
+        "20": 0.4,
+        "21": 0.5,
+        "22": 0.7,
+        "23": 1.0,
+        "24": 1.4,
+        "25": 1.9,
+        "26": 2.7,
+        "27": 3.7,
+        "28": 5.0,
+        "29": 6.5,
+        "30": 8.5,
+        "31": 11.0,
+        "32": 13.8,
+        "33": 17.0,
+        "34": 20.8,
+        "35": 25.1,
+        "36": 30.0,
+        "37": 35.3,
+        "38": 40.9,
+        "39": 46.8,
+        "40": 52.7,
+        "41": 58.6,
+        "42": 64.4,
+        "43": 70.1,
+        "44": 75.7,
+        "45": 81.1,
+        "46": 86.1,
+        "47": 90.1,
+        "48": 93.5,
+        "49": 96.3,
+        "50": 98.7
+      }
+    }
+  },
+  "level_bands": {
+    "low_below_percentile": 30,
+    "high_above_percentile": 70,
+    "note": "App reporting convention (not part of IPIP): <30th percentile = lower, 30-70 = average range, >70 = higher, relative to the norm sample."
+  },
+  "sources": [
+    {
+      "what": "Items and scoring key (public domain)",
+      "cite": "Goldberg, L. R. (1992). The development of markers for the Big-Five factor structure. Psychological Assessment, 4, 26-42. IPIP 50-item sample questionnaire.",
+      "url": "https://ipip.ori.org/new_ipip-50-item-scale.htm"
+    },
+    {
+      "what": "Norms (percentiles)",
+      "cite": "Open Psychometrics BIG5 dataset, 19718 complete responses collected online c. 2012 (self-selected, not a representative sample).",
+      "url": "http://openpsychometrics.org/_rawdata/BIG5.zip"
+    },
+    {
+      "what": "Factor definitions and trait adjectives",
+      "cite": "John, O. P., Naumann, L. P., & Soto, C. J. (2008). Paradigm shift to the integrative Big Five trait taxonomy. In Handbook of Personality: Theory and Research (3rd ed.), Tables 4.2 and 4.4.",
+      "url": "https://www.colby.edu/wp-content/uploads/2019/06/John_et_al_2008.pdf"
+    }
+  ]
+}

@@ -1,0 +1,519 @@
+{
+  "id": "rmet",
+  "instructions": "For each set of eyes, choose which word best describes what the person in the picture is thinking or feeling. You may feel that more than one word is applicable but please choose just one word, the word which you consider to be most suitable. Before making your choice, make sure that you have read all 4 words. You should try to do the task as quickly as possible but you will not be timed.",
+  "glossary_url": "https://docs.autismresearchcentre.com/tests/adult_instructions.pdf",
+  "items": [
+    {
+      "id": "practice",
+      "n": 0,
+      "practice": true,
+      "image": "/tests/rmet/practice.jpg",
+      "options": [
+        "jealous",
+        "panicked",
+        "arrogant",
+        "hateful"
+      ],
+      "answer": "panicked"
+    },
+    {
+      "id": "e1",
+      "n": 1,
+      "practice": false,
+      "image": "/tests/rmet/01.jpg",
+      "options": [
+        "playful",
+        "comforting",
+        "irritated",
+        "bored"
+      ],
+      "answer": "playful"
+    },
+    {
+      "id": "e2",
+      "n": 2,
+      "practice": false,
+      "image": "/tests/rmet/02.jpg",
+      "options": [
+        "terrified",
+        "upset",
+        "arrogant",
+        "annoyed"
+      ],
+      "answer": "upset"
+    },
+    {
+      "id": "e3",
+      "n": 3,
+      "practice": false,
+      "image": "/tests/rmet/03.jpg",
+      "options": [
+        "joking",
+        "flustered",
+        "desire",
+        "convinced"
+      ],
+      "answer": "desire"
+    },
+    {
+      "id": "e4",
+      "n": 4,
+      "practice": false,
+      "image": "/tests/rmet/04.jpg",
+      "options": [
+        "joking",
+        "insisting",
+        "amused",
+        "relaxed"
+      ],
+      "answer": "insisting"
+    },
+    {
+      "id": "e5",
+      "n": 5,
+      "practice": false,
+      "image": "/tests/rmet/05.jpg",
+      "options": [
+        "irritated",
+        "sarcastic",
+        "worried",
+        "friendly"
+      ],
+      "answer": "worried"
+    },
+    {
+      "id": "e6",
+      "n": 6,
+      "practice": false,
+      "image": "/tests/rmet/06.jpg",
+      "options": [
+        "aghast",
+        "fantasizing",
+        "impatient",
+        "alarmed"
+      ],
+      "answer": "fantasizing"
+    },
+    {
+      "id": "e7",
+      "n": 7,
+      "practice": false,
+      "image": "/tests/rmet/07.jpg",
+      "options": [
+        "apologetic",
+        "friendly",
+        "uneasy",
+        "dispirited"
+      ],
+      "answer": "uneasy"
+    },
+    {
+      "id": "e8",
+      "n": 8,
+      "practice": false,
+      "image": "/tests/rmet/08.jpg",
+      "options": [
+        "despondent",
+        "relieved",
+        "shy",
+        "excited"
+      ],
+      "answer": "despondent"
+    },
+    {
+      "id": "e9",
+      "n": 9,
+      "practice": false,
+      "image": "/tests/rmet/09.jpg",
+      "options": [
+        "annoyed",
+        "hostile",
+        "horrified",
+        "preoccupied"
+      ],
+      "answer": "preoccupied"
+    },
+    {
+      "id": "e10",
+      "n": 10,
+      "practice": false,
+      "image": "/tests/rmet/10.jpg",
+      "options": [
+        "cautious",
+        "insisting",
+        "bored",
+        "aghast"
+      ],
+      "answer": "cautious"
+    },
+    {
+      "id": "e11",
+      "n": 11,
+      "practice": false,
+      "image": "/tests/rmet/11.jpg",
+      "options": [
+        "terrified",
+        "amused",
+        "regretful",
+        "flirtatious"
+      ],
+      "answer": "regretful"
+    },
+    {
+      "id": "e12",
+      "n": 12,
+      "practice": false,
+      "image": "/tests/rmet/12.jpg",
+      "options": [
+        "indifferent",
+        "embarrassed",
+        "sceptical",
+        "dispirited"
+      ],
+      "answer": "sceptical"
+    },
+    {
+      "id": "e13",
+      "n": 13,
+      "practice": false,
+      "image": "/tests/rmet/13.jpg",
+      "options": [
+        "decisive",
+        "anticipating",
+        "threatening",
+        "shy"
+      ],
+      "answer": "anticipating"
+    },
+    {
+      "id": "e14",
+      "n": 14,
+      "practice": false,
+      "image": "/tests/rmet/14.jpg",
+      "options": [
+        "irritated",
+        "disappointed",
+        "depressed",
+        "accusing"
+      ],
+      "answer": "accusing"
+    },
+    {
+      "id": "e15",
+      "n": 15,
+      "practice": false,
+      "image": "/tests/rmet/15.jpg",
+      "options": [
+        "contemplative",
+        "flustered",
+        "encouraging",
+        "amused"
+      ],
+      "answer": "contemplative"
+    },
+    {
+      "id": "e16",
+      "n": 16,
+      "practice": false,
+      "image": "/tests/rmet/16.jpg",
+      "options": [
+        "irritated",
+        "thoughtful",
+        "encouraging",
+        "sympathetic"
+      ],
+      "answer": "thoughtful"
+    },
+    {
+      "id": "e17",
+      "n": 17,
+      "practice": false,
+      "image": "/tests/rmet/17.jpg",
+      "options": [
+        "doubtful",
+        "affectionate",
+        "playful",
+        "aghast"
+      ],
+      "answer": "doubtful"
+    },
+    {
+      "id": "e18",
+      "n": 18,
+      "practice": false,
+      "image": "/tests/rmet/18.jpg",
+      "options": [
+        "decisive",
+        "amused",
+        "aghast",
+        "bored"
+      ],
+      "answer": "decisive"
+    },
+    {
+      "id": "e19",
+      "n": 19,
+      "practice": false,
+      "image": "/tests/rmet/19.jpg",
+      "options": [
+        "arrogant",
+        "grateful",
+        "sarcastic",
+        "tentative"
+      ],
+      "answer": "tentative"
+    },
+    {
+      "id": "e20",
+      "n": 20,
+      "practice": false,
+      "image": "/tests/rmet/20.jpg",
+      "options": [
+        "dominant",
+        "friendly",
+        "guilty",
+        "horrified"
+      ],
+      "answer": "friendly"
+    },
+    {
+      "id": "e21",
+      "n": 21,
+      "practice": false,
+      "image": "/tests/rmet/21.jpg",
+      "options": [
+        "embarrassed",
+        "fantasizing",
+        "confused",
+        "panicked"
+      ],
+      "answer": "fantasizing"
+    },
+    {
+      "id": "e22",
+      "n": 22,
+      "practice": false,
+      "image": "/tests/rmet/22.jpg",
+      "options": [
+        "preoccupied",
+        "grateful",
+        "insisting",
+        "imploring"
+      ],
+      "answer": "preoccupied"
+    },
+    {
+      "id": "e23",
+      "n": 23,
+      "practice": false,
+      "image": "/tests/rmet/23.jpg",
+      "options": [
+        "contented",
+        "apologetic",
+        "defiant",
+        "curious"
+      ],
+      "answer": "defiant"
+    },
+    {
+      "id": "e24",
+      "n": 24,
+      "practice": false,
+      "image": "/tests/rmet/24.jpg",
+      "options": [
+        "pensive",
+        "irritated",
+        "excited",
+        "hostile"
+      ],
+      "answer": "pensive"
+    },
+    {
+      "id": "e25",
+      "n": 25,
+      "practice": false,
+      "image": "/tests/rmet/25.jpg",
+      "options": [
+        "panicked",
+        "incredulous",
+        "despondent",
+        "interested"
+      ],
+      "answer": "interested"
+    },
+    {
+      "id": "e26",
+      "n": 26,
+      "practice": false,
+      "image": "/tests/rmet/26.jpg",
+      "options": [
+        "alarmed",
+        "shy",
+        "hostile",
+        "anxious"
+      ],
+      "answer": "hostile"
+    },
+    {
+      "id": "e27",
+      "n": 27,
+      "practice": false,
+      "image": "/tests/rmet/27.jpg",
+      "options": [
+        "joking",
+        "cautious",
+        "arrogant",
+        "reassuring"
+      ],
+      "answer": "cautious"
+    },
+    {
+      "id": "e28",
+      "n": 28,
+      "practice": false,
+      "image": "/tests/rmet/28.jpg",
+      "options": [
+        "interested",
+        "joking",
+        "affectionate",
+        "contented"
+      ],
+      "answer": "interested"
+    },
+    {
+      "id": "e29",
+      "n": 29,
+      "practice": false,
+      "image": "/tests/rmet/29.jpg",
+      "options": [
+        "impatient",
+        "aghast",
+        "irritated",
+        "reflective"
+      ],
+      "answer": "reflective"
+    },
+    {
+      "id": "e30",
+      "n": 30,
+      "practice": false,
+      "image": "/tests/rmet/30.jpg",
+      "options": [
+        "grateful",
+        "flirtatious",
+        "hostile",
+        "disappointed"
+      ],
+      "answer": "flirtatious"
+    },
+    {
+      "id": "e31",
+      "n": 31,
+      "practice": false,
+      "image": "/tests/rmet/31.jpg",
+      "options": [
+        "ashamed",
+        "confident",
+        "joking",
+        "dispirited"
+      ],
+      "answer": "confident"
+    },
+    {
+      "id": "e32",
+      "n": 32,
+      "practice": false,
+      "image": "/tests/rmet/32.jpg",
+      "options": [
+        "serious",
+        "ashamed",
+        "bewildered",
+        "alarmed"
+      ],
+      "answer": "serious"
+    },
+    {
+      "id": "e33",
+      "n": 33,
+      "practice": false,
+      "image": "/tests/rmet/33.jpg",
+      "options": [
+        "embarrassed",
+        "guilty",
+        "fantasizing",
+        "concerned"
+      ],
+      "answer": "concerned"
+    },
+    {
+      "id": "e34",
+      "n": 34,
+      "practice": false,
+      "image": "/tests/rmet/34.jpg",
+      "options": [
+        "aghast",
+        "baffled",
+        "distrustful",
+        "terrified"
+      ],
+      "answer": "distrustful"
+    },
+    {
+      "id": "e35",
+      "n": 35,
+      "practice": false,
+      "image": "/tests/rmet/35.jpg",
+      "options": [
+        "puzzled",
+        "nervous",
+        "insisting",
+        "contemplative"
+      ],
+      "answer": "nervous"
+    },
+    {
+      "id": "e36",
+      "n": 36,
+      "practice": false,
+      "image": "/tests/rmet/36.jpg",
+      "options": [
+        "ashamed",
+        "nervous",
+        "suspicious",
+        "indecisive"
+      ],
+      "answer": "suspicious"
+    }
+  ],
+  "norms": {
+    "source": "Baron-Cohen, Wheelwright, Hill, Raste & Plumb (2001), Table 3",
+    "groups": [
+      {
+        "group": "General population adults",
+        "n": 122,
+        "mean": 26.2,
+        "sd": 3.6
+      },
+      {
+        "group": "University students",
+        "n": 103,
+        "mean": 28.0,
+        "sd": 3.5
+      }
+    ]
+  },
+  "disclaimer": "Our tests are not diagnostic: no single score on any of our tests indicates that an individual is autistic. (Autism Research Centre)",
+  "license": "Autism Research Centre tests are free for non-commercial research use with acknowledgement; they must not be adapted or modified without permission. Commercial use: Cambridge Enterprise.",
+  "sources": [
+    {
+      "what": "Stimuli, words and answer key",
+      "cite": "Autism Research Centre, University of Cambridge - Adult Eyes Test (Revised).",
+      "url": "https://www.autismresearchcentre.com/tests/eyes-test-adult/"
+    },
+    {
+      "what": "Norms",
+      "cite": "Baron-Cohen, S., Wheelwright, S., Hill, J., Raste, Y., & Plumb, I. (2001). The 'Reading the Mind in the Eyes' Test revised version. Journal of Child Psychology and Psychiatry, 42, 241-251.",
+      "url": "https://docs.autismresearchcentre.com/papers/2001_BCetal_adulteyes.pdf"
+    }
+  ]
+}

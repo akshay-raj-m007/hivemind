@@ -1,0 +1,1787 @@
+{
+  "big-five": {
+    "E": {
+      "higher": [
+        {
+          "source": "big5",
+          "text": "Extraverts enjoy interacting with people, and are often perceived as energetic."
+        },
+        {
+          "source": "big5",
+          "text": "They tend to be enthusiastic and action-oriented."
+        }
+      ],
+      "lower": [
+        {
+          "source": "big5",
+          "text": "Introverts need less stimulation and more time alone than extraverts."
+        },
+        {
+          "source": "big5",
+          "text": "They tend to seem quiet, low-key, deliberate, and less involved in the social world."
+        }
+      ],
+      "average": [
+        {
+          "source": "big5",
+          "text": "Generally, people are a combination of extraversion and introversion"
+        }
+      ]
+    },
+    "A": {
+      "higher": [
+        {
+          "source": "big5",
+          "text": "Agreeable individuals value getting along with others."
+        },
+        {
+          "source": "big5",
+          "text": "They are generally considerate, kind, generous, trusting and trustworthy, helpful, and willing to compromise their interests with others."
+        }
+      ],
+      "lower": [
+        {
+          "source": "big5",
+          "text": "Disagreeable people are often competitive or challenging"
+        }
+      ],
+      "average": []
+    },
+    "C": {
+      "higher": [
+        {
+          "source": "big5",
+          "text": "Conscientiousness is a tendency to be self-disciplined, act dutifully, and strive for achievement against measures or outside expectations."
+        },
+        {
+          "source": "big5",
+          "text": "High conscientiousness indicates a preference for planned rather than spontaneous behaviour."
+        }
+      ],
+      "lower": [
+        {
+          "source": "big5",
+          "text": "Low conscientiousness is associated with flexibility and spontaneity"
+        }
+      ],
+      "average": []
+    },
+    "ES": {
+      "higher": [
+        {
+          "source": "big5",
+          "text": "less neurotic individuals are less easily upset and are less emotionally reactive."
+        },
+        {
+          "source": "big5",
+          "text": "They tend to be calm, emotionally stable, and free from persistent negative feelings."
+        }
+      ],
+      "lower": [
+        {
+          "source": "big5",
+          "text": "emotionally volatile, emotionally reactive and vulnerable to stress"
+        }
+      ],
+      "average": []
+    },
+    "O": {
+      "higher": [
+        {
+          "source": "big5",
+          "text": "People who are open to experience are intellectually curious, open to emotion, sensitive to beauty, and willing to try new things."
+        },
+        {
+          "source": "big5",
+          "text": "They tend to be, when compared to closed people, more creative and more aware of their feelings."
+        }
+      ],
+      "lower": [
+        {
+          "source": "big5",
+          "text": "those with low openness want to be fulfilled by persevering and are characterised as pragmatic and data-driven"
+        }
+      ],
+      "average": []
+    },
+    "general": [
+      {
+        "source": "big5",
+        "text": "These traits are not black and white; each one is a spectrum, with personality varying continuously across each of these dimensions"
+      }
+    ]
+  },
+  "jungian-type": {
+    "E": [
+      {
+        "source": "mbti",
+        "text": "Extraversion means literally outward-turning and introversion, inward-turning."
+      }
+    ],
+    "I": [
+      {
+        "source": "mbti",
+        "text": "Extraversion means literally outward-turning and introversion, inward-turning."
+      }
+    ],
+    "S": [
+      {
+        "source": "mbti",
+        "text": "people who prefer sensing are more likely to trust information that is in the present, tangible, and concrete."
+      },
+      {
+        "source": "mbti",
+        "text": "They tend to distrust hunches."
+      }
+    ],
+    "N": [
+      {
+        "source": "mbti",
+        "text": "Those who prefer intuition tend to trust information that is associated with other information, either remembered or discovered from context."
+      }
+    ],
+    "T": [
+      {
+        "source": "mbti",
+        "text": "Those who prefer thinking tend to decide things from a more detached standpoint."
+      }
+    ],
+    "F": [
+      {
+        "source": "mbti",
+        "text": "Those who prefer feeling tend to come to decisions by associating or empathizing with the situation."
+      }
+    ],
+    "J": [
+      {
+        "source": "mbti",
+        "text": "judging types like to \"have matters settled\""
+      }
+    ],
+    "P": [
+      {
+        "source": "mbti",
+        "text": "perceptive types prefer to \"keep decisions open\""
+      }
+    ],
+    "general": [
+      {
+        "source": "mbti",
+        "text": "the MBTI attempts to measure of preference, not ability or skill"
+      }
+    ],
+    "big5_link": [
+      {
+        "source": "mbti",
+        "text": "I and P have negative correlations with extraversion and conscientiousness, respectively, while F and N have positive correlations with agreeableness and openness, respectively."
+      }
+    ],
+    "dimensions_note": [
+      {
+        "source": "mbti",
+        "text": "the instrument measures four relatively independent dimensions."
+      }
+    ],
+    "extra": {
+      "E": [
+        {
+          "source": "big5",
+          "text": "Extraverts enjoy interacting with people, and are often perceived as energetic."
+        }
+      ],
+      "I": [
+        {
+          "source": "big5",
+          "text": "Introverts need less stimulation and more time alone than extraverts."
+        }
+      ],
+      "T": [
+        {
+          "source": "mbti",
+          "text": "People who prefer thinking do not necessarily, in the everyday sense, \"think better\" than their feeling counterparts"
+        }
+      ],
+      "F": [
+        {
+          "source": "mbti",
+          "text": "those who prefer feeling do not necessarily have \"better\" emotional reactions than their thinking counterparts."
+        }
+      ],
+      "J": [
+        {
+          "source": "mbti",
+          "text": "Myers and Briggs added a dimension to Jung's typological model"
+        }
+      ],
+      "P": [
+        {
+          "source": "mbti",
+          "text": "Myers and Briggs added a dimension to Jung's typological model"
+        }
+      ],
+      "S": [
+        {
+          "source": "mbti",
+          "text": "Jung identified two pairs of psychological functions"
+        }
+      ],
+      "N": [
+        {
+          "source": "mbti",
+          "text": "Jung identified two pairs of psychological functions"
+        }
+      ]
+    }
+  },
+  "self-esteem": {
+    "higher": [
+      {
+        "source": "selfesteem",
+        "text": "are able to act according to what they think to be the best choice, trusting their own judgment, and not feeling guilty when others do not like their choice"
+      },
+      {
+        "source": "selfesteem",
+        "text": "fully trust their capacity to solve problems, not hesitating after failures and difficulties; they ask others for help when they need it"
+      },
+      {
+        "source": "selfesteem",
+        "text": "are able to enjoy a great variety of activities"
+      },
+      {
+        "source": "selfesteem",
+        "text": "consider themselves equal in dignity to others, rather than inferior or superior, while accepting differences in certain talents, personal prestige, or financial standing"
+      },
+      {
+        "source": "selfesteem",
+        "text": "can work toward finding solutions and voice discontent without belittling themselves or others when challenges arise"
+      }
+    ],
+    "average": [
+      {
+        "source": "selfesteem",
+        "text": "Self-esteem tends to increase during adolescence and young adulthood, reaching a peak in middle age."
+      }
+    ],
+    "lower": [
+      {
+        "source": "selfesteem",
+        "text": "Individuals with low self-esteem tend to be critical of themselves."
+      },
+      {
+        "source": "selfesteem",
+        "text": "However, this does not mean it cannot be changed."
+      }
+    ],
+    "general": [
+      {
+        "source": "selfesteem",
+        "text": "In terms of personality, emotionally stable, extroverted, and conscientious individuals experience higher self-esteem."
+      }
+    ],
+    "development": [
+      {
+        "source": "selfesteem",
+        "text": "Experiences in a person's life are a major source of how self-esteem develops."
+      },
+      {
+        "source": "selfesteem",
+        "text": "These predictors have shown that self-esteem has trait-like qualities by remaining stable over time like personality and intelligence."
+      }
+    ]
+  },
+  "attachment": {
+    "secure": [
+      {
+        "source": "attachment",
+        "text": "People that have a secure attachment style are often associated with high self-esteem, and have an easier time forming healthy relationships with others."
+      },
+      {
+        "source": "attachment",
+        "text": "Those with a secure attachment style often manage conflict without feeling overwhelmed and are not bothered by the concepts of closeness and independence."
+      }
+    ],
+    "anxious-preoccupied": [
+      {
+        "source": "attachment",
+        "text": "These individuals seek intimacy but fear that others do not want to be with them."
+      },
+      {
+        "source": "attachment",
+        "text": "Even in stable relationships, many anxious attachment individuals worry about the state of the relationship."
+      }
+    ],
+    "dismissive-avoidant": [
+      {
+        "source": "attachment",
+        "text": "Individuals with a dismissive-avoidant attachment style typically suppress their emotions, and prioritize their personal independence."
+      }
+    ],
+    "fearful-avoidant": [
+      {
+        "source": "attachment",
+        "text": "They seek close relationships, but are scared of them, and so experience a personal battle within themselves."
+      },
+      {
+        "source": "attachment",
+        "text": "Many people with this attachment style may stay in the dating stage of romantic relationships as it takes longer to trust others."
+      }
+    ],
+    "general": [
+      {
+        "source": "attachment",
+        "text": "Around 70–80% of people experience no significant changes in attachment styles over time."
+      },
+      {
+        "source": "attachment",
+        "text": "suggest working models are not rigid personality traits"
+      }
+    ],
+    "more": {
+      "secure": [
+        {
+          "source": "attachment",
+          "text": "Many adults who have a secure attachment style have an easier time trusting in themselves and their relationships."
+        },
+        {
+          "source": "attachment",
+          "text": "Adults who have a secure attachment style usually express greater satisfaction with their relationships."
+        }
+      ],
+      "anxious-preoccupied": [
+        {
+          "source": "attachment",
+          "text": "Individuals with anxious attachment seek approval by others regarding the security of the relationship."
+        }
+      ],
+      "dismissive-avoidant": [
+        {
+          "source": "attachment",
+          "text": "Many have a hard time opening up to romantic partners, and when things feel real, they pull away."
+        },
+        {
+          "source": "attachment",
+          "text": "The characteristics of individuals who are dismissive-avoidant include emotional distance, independence over closeness"
+        }
+      ],
+      "fearful-avoidant": [
+        {
+          "source": "attachment",
+          "text": "These individuals sometimes seek closeness, but other times crave distance due to fear of abandonment."
+        }
+      ]
+    },
+    "outcomes": [
+      {
+        "source": "attachment",
+        "text": "Secure attachment styles may lead to more constructive communication and more intimate self-disclosures, which in turn increase relationship satisfaction."
+      }
+    ]
+  },
+  "rmet": {
+    "general": [
+      {
+        "source": "tom",
+        "text": "theory of mind (often abbreviated to ToM) is the capacity to understand other individuals by ascribing mental states to them."
+      },
+      {
+        "source": "tom",
+        "text": "Possessing a functional theory of mind is crucial for success in everyday human social interactions."
+      },
+      {
+        "source": "tom",
+        "text": "People use a theory of mind when analyzing, judging, and inferring other people's behaviors."
+      }
+    ],
+    "caveat": [
+      {
+        "source": "tom",
+        "text": "Measures such as the Reading the Mind in the Eyes test (RME) have been widely used and accepted by experts as measures of ToM but systematic reviews of research have shown a lack of validity data."
+      }
+    ]
+  },
+  "rorschach": {
+    "about": [
+      {
+        "source": "rorschach_org",
+        "text": "In the strictest sense, the Rorschach Inkblot Test is a test or assessment of perception."
+      },
+      {
+        "source": "rorschach_org",
+        "text": "How does someone view and organize the world around them?"
+      },
+      {
+        "source": "rorschach",
+        "text": "\"Popularity\" and \"originality\" of responses can also be considered as basic dimensions in the analysis."
+      },
+      {
+        "source": "rorschach",
+        "text": "different cultures will exhibit different \"common\" objects"
+      }
+    ],
+    "caveat": [
+      {
+        "source": "rorschach_org_home",
+        "text": "A self-evaluation online is by no means appropriate."
+      }
+    ],
+    "research": [
+      {
+        "source": "dauphin2024",
+        "text": "higher levels of Complexity are also associated with scanning more regions of the blot overall, albeit at a slower rate."
+      }
+    ],
+    "I": [
+      {
+        "source": "rorschach",
+        "text": "Being the first card, it can provide clues about how subjects tackle a new and stressful task."
+      }
+    ],
+    "II": [
+      {
+        "source": "rorschach",
+        "text": "The red details of card II are often seen as blood, and are the most distinctive features."
+      }
+    ],
+    "III": [
+      {
+        "source": "rorschach",
+        "text": "Card III is typically perceived to contain two humans involved in some interaction, and may provide information about how the subject relates with other people"
+      }
+    ],
+    "IV": [
+      {
+        "source": "rorschach",
+        "text": "is generally perceived as a big and sometimes threatening figure; compounded with the common impression of the subject being in an inferior position (\"looking up\") to it, this serves to elicit a sense of authority."
+      }
+    ],
+    "V": [
+      {
+        "source": "rorschach",
+        "text": "Card V is an easily elaborated card that is not usually perceived as threatening, and typically instigates a \"change of pace\" in the test, after the previous more challenging cards."
+      }
+    ],
+    "VI": [
+      {
+        "source": "rorschach",
+        "text": "Texture is the dominant characteristic of card VI, which often elicits association related to interpersonal closeness"
+      }
+    ],
+    "VII": [
+      {
+        "source": "rorschach",
+        "text": "Card VII can be associated with femininity (the human figures commonly seen in it being described as women or children)"
+      }
+    ],
+    "VIII": [
+      {
+        "source": "rorschach",
+        "text": "People often express relief about card VIII, which lets them relax and respond effectively."
+      }
+    ],
+    "IX": [
+      {
+        "source": "rorschach",
+        "text": "Characteristic of card IX is indistinct form and diffuse, muted chromatic features, creating a general vagueness."
+      }
+    ],
+    "X": [
+      {
+        "source": "rorschach",
+        "text": "Being the last card, it may provide an opportunity for the subject to \"sign out\" by indicating what they feel their situation is like, or what they desire to know."
+      }
+    ]
+  },
+  "riasec": {
+    "R": {
+      "name": "Realistic",
+      "nickname": "Doers",
+      "definition": "Holland defines the \"Realistic Type\" as a person who has “a preference for activities that entail the explicit, ordered, or systematic manipulation of objects, tools, machines, and animals…these behavioral tendencies lead in turn to the acquisition of manual, mechanical, agricultural, electrical, and technical competencies.”",
+      "careers": [
+        {
+          "title": "Agriculture",
+          "letters": [
+            "R"
+          ]
+        },
+        {
+          "title": "Architect",
+          "letters": [
+            "R",
+            "A",
+            "E"
+          ]
+        },
+        {
+          "title": "Athletics",
+          "letters": [
+            "R"
+          ]
+        },
+        {
+          "title": "Carpenter",
+          "letters": [
+            "R",
+            "C",
+            "I"
+          ]
+        },
+        {
+          "title": "Culinary arts/Chef",
+          "letters": [
+            "R",
+            "A",
+            "E"
+          ]
+        },
+        {
+          "title": "Chemistry/Chemist",
+          "letters": [
+            "R",
+            "I",
+            "C"
+          ]
+        },
+        {
+          "title": "Computer engineering/Computer science/Information technology/Computer programmer",
+          "letters": [
+            "R",
+            "I",
+            "C"
+          ]
+        },
+        {
+          "title": "Dentist",
+          "letters": [
+            "R",
+            "I",
+            "S"
+          ]
+        },
+        {
+          "title": "Engineer",
+          "letters": [
+            "R",
+            "I",
+            "C"
+          ]
+        },
+        {
+          "title": "Fashion design",
+          "letters": [
+            "R",
+            "A",
+            "E"
+          ]
+        },
+        {
+          "title": "Firefighter",
+          "letters": [
+            "R",
+            "S",
+            "E"
+          ]
+        },
+        {
+          "title": "Graphic designer",
+          "letters": [
+            "R",
+            "A",
+            "E"
+          ]
+        },
+        {
+          "title": "Model",
+          "letters": [
+            "R",
+            "A",
+            "E"
+          ]
+        },
+        {
+          "title": "Musician",
+          "letters": [
+            "R",
+            "A",
+            "E"
+          ]
+        },
+        {
+          "title": "Nurse",
+          "letters": [
+            "R",
+            "S",
+            "C",
+            "I"
+          ]
+        },
+        {
+          "title": "Outdoor recreation",
+          "letters": [
+            "R"
+          ]
+        },
+        {
+          "title": "Park Naturalist",
+          "letters": [
+            "R",
+            "S",
+            "A"
+          ]
+        },
+        {
+          "title": "Personal trainer",
+          "letters": [
+            "R",
+            "E",
+            "S"
+          ]
+        },
+        {
+          "title": "Photographer",
+          "letters": [
+            "R",
+            "A",
+            "E"
+          ]
+        },
+        {
+          "title": "Physical therapy",
+          "letters": [
+            "R",
+            "S",
+            "I"
+          ]
+        },
+        {
+          "title": "Driver",
+          "letters": [
+            "R"
+          ]
+        },
+        {
+          "title": "Sports medicine/Wilderness medicine",
+          "letters": [
+            "R",
+            "S",
+            "I"
+          ]
+        },
+        {
+          "title": "Surgeon",
+          "letters": [
+            "R",
+            "I",
+            "S"
+          ]
+        },
+        {
+          "title": "Veterinarian",
+          "letters": [
+            "R",
+            "I",
+            "S"
+          ]
+        },
+        {
+          "title": "Web developer",
+          "letters": [
+            "R",
+            "C",
+            "A",
+            "I"
+          ]
+        },
+        {
+          "title": "Zoologists and Wildlife Biologists",
+          "letters": [
+            "R",
+            "I"
+          ]
+        }
+      ]
+    },
+    "I": {
+      "name": "Investigative",
+      "nickname": "Thinkers",
+      "definition": "Holland defines the \"Investigative Type\" as a person who has \"a preference for activities that entail the observational, symbolic, systematic and creative investigation of physical, biological, and cultural phenomena (in order to understand and control such phenomena)... these behavioral tendencies lead in turn to an acquisition of scientific and mathematical competencies.\"",
+      "careers": [
+        {
+          "title": "Actuary",
+          "letters": [
+            "I",
+            "C",
+            "E"
+          ]
+        },
+        {
+          "title": "Archivist/Librarian",
+          "letters": [
+            "I",
+            "S",
+            "C"
+          ]
+        },
+        {
+          "title": "Biostatistics/Masters in Public Health",
+          "letters": [
+            "I",
+            "C"
+          ]
+        },
+        {
+          "title": "Carpenter",
+          "letters": [
+            "I",
+            "C",
+            "R"
+          ]
+        },
+        {
+          "title": "Chemistry/Chemist",
+          "letters": [
+            "I",
+            "R",
+            "C"
+          ]
+        },
+        {
+          "title": "Community Health Workers/Masters in Public Health",
+          "letters": [
+            "I",
+            "S",
+            "E"
+          ]
+        },
+        {
+          "title": "Computer engineering/Computer science/Information technology/Computer programmer",
+          "letters": [
+            "I",
+            "R",
+            "C"
+          ]
+        },
+        {
+          "title": "Counselor",
+          "letters": [
+            "I",
+            "S",
+            "A"
+          ]
+        },
+        {
+          "title": "Dentist",
+          "letters": [
+            "I",
+            "R",
+            "S"
+          ]
+        },
+        {
+          "title": "Dietitian/Nutritionist",
+          "letters": [
+            "I",
+            "S",
+            "E"
+          ]
+        },
+        {
+          "title": "Engineer",
+          "letters": [
+            "I",
+            "R",
+            "C"
+          ]
+        },
+        {
+          "title": "Engineering Manager",
+          "letters": [
+            "I",
+            "E",
+            "C"
+          ]
+        },
+        {
+          "title": "Financial analyst",
+          "letters": [
+            "I",
+            "C",
+            "E"
+          ]
+        },
+        {
+          "title": "Epidemiology/Masters in Public Health",
+          "letters": [
+            "I",
+            "S"
+          ]
+        },
+        {
+          "title": "Lawyer",
+          "letters": [
+            "I",
+            "E",
+            "S"
+          ]
+        },
+        {
+          "title": "Natural Sciences Manager",
+          "letters": [
+            "I",
+            "E"
+          ]
+        },
+        {
+          "title": "Nurse",
+          "letters": [
+            "I",
+            "R",
+            "C",
+            "S"
+          ]
+        },
+        {
+          "title": "Paralegal",
+          "letters": [
+            "I",
+            "C",
+            "E"
+          ]
+        },
+        {
+          "title": "Physical therapy",
+          "letters": [
+            "I",
+            "S",
+            "R"
+          ]
+        },
+        {
+          "title": "Physics",
+          "letters": [
+            "I"
+          ]
+        },
+        {
+          "title": "Poets, Lyricists and Creative Writers",
+          "letters": [
+            "I",
+            "A"
+          ]
+        },
+        {
+          "title": "Professor/Research – PhD",
+          "letters": [
+            "I"
+          ]
+        },
+        {
+          "title": "Social Work",
+          "letters": [
+            "I",
+            "S"
+          ]
+        },
+        {
+          "title": "Sports medicine/Wilderness medicine",
+          "letters": [
+            "I",
+            "S",
+            "R"
+          ]
+        },
+        {
+          "title": "Surgeon",
+          "letters": [
+            "I",
+            "R",
+            "S"
+          ]
+        },
+        {
+          "title": "Technical writer, Proofreader, Copy Editor",
+          "letters": [
+            "I",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "title": "Tutor",
+          "letters": [
+            "I",
+            "S"
+          ]
+        },
+        {
+          "title": "Veterinarian",
+          "letters": [
+            "I",
+            "R",
+            "S"
+          ]
+        },
+        {
+          "title": "Web developer",
+          "letters": [
+            "I",
+            "C",
+            "R",
+            "A"
+          ]
+        },
+        {
+          "title": "Zoologists and Wildlife Biologists",
+          "letters": [
+            "I",
+            "R"
+          ]
+        }
+      ]
+    },
+    "A": {
+      "name": "Artistic",
+      "nickname": "Creators",
+      "definition": "Holland defines the \"Artistic Type\" as a person who has \"a preference for ambiguous, free, unsystematized activities that entail the manipulation of physical, verbal, or human materials to create art forms or products...these behavioral tendencies lead in turn to the acquisition of artistic competencies.\"",
+      "careers": [
+        {
+          "title": "Architect",
+          "letters": [
+            "A",
+            "R",
+            "E"
+          ]
+        },
+        {
+          "title": "Broadcast journalism",
+          "letters": [
+            "A",
+            "E"
+          ]
+        },
+        {
+          "title": "Culinary arts",
+          "letters": [
+            "A",
+            "R",
+            "E"
+          ]
+        },
+        {
+          "title": "Entrepreneur",
+          "letters": [
+            "A",
+            "S",
+            "E"
+          ]
+        },
+        {
+          "title": "Fashion design",
+          "letters": [
+            "A",
+            "R",
+            "E"
+          ]
+        },
+        {
+          "title": "Graphic designer",
+          "letters": [
+            "A",
+            "E",
+            "R"
+          ]
+        },
+        {
+          "title": "Model",
+          "letters": [
+            "A",
+            "R",
+            "E"
+          ]
+        },
+        {
+          "title": "Musician",
+          "letters": [
+            "A",
+            "E",
+            "R"
+          ]
+        },
+        {
+          "title": "Park Naturalist",
+          "letters": [
+            "A",
+            "S",
+            "R"
+          ]
+        },
+        {
+          "title": "Poets, Lyricists and Creative Writers",
+          "letters": [
+            "A",
+            "I"
+          ]
+        },
+        {
+          "title": "Photographer",
+          "letters": [
+            "A",
+            "R",
+            "E"
+          ]
+        },
+        {
+          "title": "Technical writer, Proofreader, Copy Editor",
+          "letters": [
+            "A",
+            "I",
+            "C"
+          ]
+        },
+        {
+          "title": "Translator",
+          "letters": [
+            "A",
+            "S"
+          ]
+        },
+        {
+          "title": "Web developer",
+          "letters": [
+            "A",
+            "C",
+            "R",
+            "I"
+          ]
+        }
+      ]
+    },
+    "S": {
+      "name": "Social",
+      "nickname": "Helpers",
+      "definition": "Holland defines the \"Social Type\" as a person who has \"a preference for activities that entail the manipulation of others to inform, train, develop, cure, or enlighten...these behavioral tendencies lead in turn to an acquisition of human relations competencies.\"",
+      "careers": [
+        {
+          "title": "Archivist/Librarian",
+          "letters": [
+            "S",
+            "C",
+            "I"
+          ]
+        },
+        {
+          "title": "Clergy",
+          "letters": [
+            "S",
+            "A",
+            "E"
+          ]
+        },
+        {
+          "title": "Community Organizer",
+          "letters": [
+            "S"
+          ]
+        },
+        {
+          "title": "Community Health Workers/Masters in Public Health",
+          "letters": [
+            "S",
+            "I",
+            "E"
+          ]
+        },
+        {
+          "title": "Customer service",
+          "letters": [
+            "S",
+            "C",
+            "E"
+          ]
+        },
+        {
+          "title": "Dentist",
+          "letters": [
+            "S",
+            "I",
+            "R"
+          ]
+        },
+        {
+          "title": "Dietitian/Nutritionist",
+          "letters": [
+            "S",
+            "I",
+            "E"
+          ]
+        },
+        {
+          "title": "Educational administration",
+          "letters": [
+            "S",
+            "E",
+            "C"
+          ]
+        },
+        {
+          "title": "Educational consultant",
+          "letters": [
+            "S",
+            "C",
+            "E"
+          ]
+        },
+        {
+          "title": "Entrepreneur",
+          "letters": [
+            "S",
+            "E",
+            "A"
+          ]
+        },
+        {
+          "title": "Epidemiology/Masters in Public Health",
+          "letters": [
+            "S",
+            "I"
+          ]
+        },
+        {
+          "title": "Personal Financial Planner/Certified Financial Planner",
+          "letters": [
+            "S",
+            "E",
+            "C"
+          ]
+        },
+        {
+          "title": "Firefighter",
+          "letters": [
+            "S",
+            "R",
+            "E"
+          ]
+        },
+        {
+          "title": "Fitness Trainer and Aerobics Teacher",
+          "letters": [
+            "S",
+            "E",
+            "R"
+          ]
+        },
+        {
+          "title": "Foreign Service/Diplomacy",
+          "letters": [
+            "S",
+            "E",
+            "A"
+          ]
+        },
+        {
+          "title": "Human Resources",
+          "letters": [
+            "S",
+            "C",
+            "E"
+          ]
+        },
+        {
+          "title": "Lawyer",
+          "letters": [
+            "S",
+            "I",
+            "E"
+          ]
+        },
+        {
+          "title": "Nurse",
+          "letters": [
+            "S",
+            "R",
+            "C",
+            "I"
+          ]
+        },
+        {
+          "title": "Park Naturalist",
+          "letters": [
+            "S",
+            "R",
+            "A"
+          ]
+        },
+        {
+          "title": "Pharmacist",
+          "letters": [
+            "S",
+            "I",
+            "C"
+          ]
+        },
+        {
+          "title": "Physical therapy",
+          "letters": [
+            "S",
+            "R",
+            "I"
+          ]
+        },
+        {
+          "title": "Social Advocate",
+          "letters": [
+            "S"
+          ]
+        },
+        {
+          "title": "Sociology",
+          "letters": [
+            "S"
+          ]
+        },
+        {
+          "title": "Social Work",
+          "letters": [
+            "S"
+          ]
+        },
+        {
+          "title": "Surgeon",
+          "letters": [
+            "S",
+            "R",
+            "I"
+          ]
+        },
+        {
+          "title": "Sports medicine/Wilderness medicine",
+          "letters": [
+            "S",
+            "I",
+            "R"
+          ]
+        },
+        {
+          "title": "Translator",
+          "letters": [
+            "S",
+            "A"
+          ]
+        },
+        {
+          "title": "Tutor",
+          "letters": [
+            "S",
+            "I"
+          ]
+        },
+        {
+          "title": "Veterinarian",
+          "letters": [
+            "S",
+            "I",
+            "R"
+          ]
+        }
+      ]
+    },
+    "E": {
+      "name": "Enterprising",
+      "nickname": "Persuaders",
+      "definition": "Holland defines the \"Enterprising Type\" as a person who has \"a preference for activities that entail the manipulation of others to attain organization goals or economic gain...these behavioral tendencies lead in turn to an acquisition of leadership, interpersonal, and persuasive competences.\"",
+      "careers": [
+        {
+          "title": "Actuary",
+          "letters": [
+            "E",
+            "I",
+            "C"
+          ]
+        },
+        {
+          "title": "Architect",
+          "letters": [
+            "E",
+            "A",
+            "R"
+          ]
+        },
+        {
+          "title": "Business",
+          "letters": [
+            "E",
+            "S",
+            "C"
+          ]
+        },
+        {
+          "title": "Buyer",
+          "letters": [
+            "E"
+          ]
+        },
+        {
+          "title": "Community Health Workers/Masters in Public Health",
+          "letters": [
+            "E",
+            "I",
+            "S"
+          ]
+        },
+        {
+          "title": "Culinary arts",
+          "letters": [
+            "E",
+            "A",
+            "R"
+          ]
+        },
+        {
+          "title": "Clergy",
+          "letters": [
+            "E",
+            "A",
+            "S"
+          ]
+        },
+        {
+          "title": "Customer service",
+          "letters": [
+            "E",
+            "C",
+            "S"
+          ]
+        },
+        {
+          "title": "Dietitian/Nutritionist",
+          "letters": [
+            "E",
+            "S",
+            "I"
+          ]
+        },
+        {
+          "title": "Educational administration",
+          "letters": [
+            "E",
+            "S",
+            "C"
+          ]
+        },
+        {
+          "title": "Educational consultant",
+          "letters": [
+            "E",
+            "C",
+            "S"
+          ]
+        },
+        {
+          "title": "Engineering Manager",
+          "letters": [
+            "E",
+            "I",
+            "C"
+          ]
+        },
+        {
+          "title": "Entrepreneur",
+          "letters": [
+            "E",
+            "S",
+            "A"
+          ]
+        },
+        {
+          "title": "Fashion design",
+          "letters": [
+            "E",
+            "A",
+            "R"
+          ]
+        },
+        {
+          "title": "Financial analyst",
+          "letters": [
+            "E",
+            "I",
+            "C"
+          ]
+        },
+        {
+          "title": "Foreign Service/Diplomacy",
+          "letters": [
+            "E",
+            "S",
+            "A"
+          ]
+        },
+        {
+          "title": "Firefighter",
+          "letters": [
+            "E",
+            "S",
+            "R"
+          ]
+        },
+        {
+          "title": "Fitness Trainer and Aerobics Teacher",
+          "letters": [
+            "E",
+            "R",
+            "S"
+          ]
+        },
+        {
+          "title": "Fundraising",
+          "letters": [
+            "E"
+          ]
+        },
+        {
+          "title": "Graphic designer",
+          "letters": [
+            "E",
+            "A",
+            "R"
+          ]
+        },
+        {
+          "title": "Human Resources",
+          "letters": [
+            "E",
+            "C",
+            "S"
+          ]
+        },
+        {
+          "title": "Broadcast journalism",
+          "letters": [
+            "E",
+            "A"
+          ]
+        },
+        {
+          "title": "Lawyer",
+          "letters": [
+            "E",
+            "I",
+            "S"
+          ]
+        },
+        {
+          "title": "Management/Management Consultant",
+          "letters": [
+            "E"
+          ]
+        },
+        {
+          "title": "Market Research Analyst",
+          "letters": [
+            "E",
+            "I"
+          ]
+        },
+        {
+          "title": "Model",
+          "letters": [
+            "E",
+            "A",
+            "R"
+          ]
+        },
+        {
+          "title": "Musician",
+          "letters": [
+            "E",
+            "A",
+            "R"
+          ]
+        },
+        {
+          "title": "Natural Sciences Manager",
+          "letters": [
+            "E",
+            "I"
+          ]
+        },
+        {
+          "title": "Paralegal",
+          "letters": [
+            "E",
+            "C",
+            "I"
+          ]
+        },
+        {
+          "title": "Photographer",
+          "letters": [
+            "E",
+            "A",
+            "R"
+          ]
+        },
+        {
+          "title": "Public Health Educator/Masters in Public Health",
+          "letters": [
+            "E",
+            "S"
+          ]
+        },
+        {
+          "title": "Property manager/Community association manager",
+          "letters": [
+            "E",
+            "C"
+          ]
+        },
+        {
+          "title": "Public relations/Publicity/Advertising/Marketing",
+          "letters": [
+            "E",
+            "A"
+          ]
+        },
+        {
+          "title": "Sales",
+          "letters": [
+            "E",
+            "C",
+            "S"
+          ]
+        }
+      ]
+    },
+    "C": {
+      "name": "Conventional",
+      "nickname": "Organizers",
+      "definition": "Holland defines the \"Conventional Type\" as a person who has \"a preference for actives that entail the explicit, ordered, systematic manipulation of data (keeping records, filing materials, reproducing materials, organizing business machines and data processing equipment to attain organizational or economic goals)...these behavioral tendencies lead in turn to an acquisition of clerical, computational, and business system competencies.\"",
+      "careers": [
+        {
+          "title": "Actuary",
+          "letters": [
+            "C",
+            "I",
+            "E"
+          ]
+        },
+        {
+          "title": "Archivist/Librarian",
+          "letters": [
+            "C",
+            "S",
+            "I"
+          ]
+        },
+        {
+          "title": "Biostatistics/Masters in Public Health",
+          "letters": [
+            "C",
+            "I"
+          ]
+        },
+        {
+          "title": "Carpenter",
+          "letters": [
+            "C",
+            "R",
+            "I"
+          ]
+        },
+        {
+          "title": "Chemistry/Chemist",
+          "letters": [
+            "C",
+            "I",
+            "R"
+          ]
+        },
+        {
+          "title": "Computer engineering/Computer science/Information technology/Computer programmer",
+          "letters": [
+            "C",
+            "I",
+            "R"
+          ]
+        },
+        {
+          "title": "Customer service",
+          "letters": [
+            "C",
+            "E",
+            "S"
+          ]
+        },
+        {
+          "title": "Educational administration",
+          "letters": [
+            "C",
+            "S",
+            "E"
+          ]
+        },
+        {
+          "title": "Educational consultant",
+          "letters": [
+            "C",
+            "S",
+            "E"
+          ]
+        },
+        {
+          "title": "Engineer",
+          "letters": [
+            "C",
+            "I",
+            "R"
+          ]
+        },
+        {
+          "title": "Engineering Manager",
+          "letters": [
+            "C",
+            "I",
+            "E"
+          ]
+        },
+        {
+          "title": "Financial analyst",
+          "letters": [
+            "C",
+            "I",
+            "E"
+          ]
+        },
+        {
+          "title": "Personal Financial Planner/Certified Financial Planner",
+          "letters": [
+            "C",
+            "S",
+            "E"
+          ]
+        },
+        {
+          "title": "Maths teacher",
+          "letters": [
+            "C",
+            "S"
+          ]
+        },
+        {
+          "title": "Nurse",
+          "letters": [
+            "C",
+            "R",
+            "S",
+            "I"
+          ]
+        },
+        {
+          "title": "Office administration",
+          "letters": [
+            "C",
+            "E"
+          ]
+        },
+        {
+          "title": "Paralegal",
+          "letters": [
+            "C",
+            "E",
+            "I"
+          ]
+        },
+        {
+          "title": "Property manager/Community association manager",
+          "letters": [
+            "C",
+            "E"
+          ]
+        },
+        {
+          "title": "Real Estate Agent",
+          "letters": [
+            "C",
+            "E"
+          ]
+        },
+        {
+          "title": "Statistician",
+          "letters": [
+            "C",
+            "R",
+            "I"
+          ]
+        },
+        {
+          "title": "Technical writer, Proofreader, Copy Editor",
+          "letters": [
+            "C",
+            "A",
+            "I"
+          ]
+        },
+        {
+          "title": "Web developer",
+          "letters": [
+            "C",
+            "A",
+            "R",
+            "I"
+          ]
+        }
+      ]
+    }
+  },
+  "sources": {
+    "big5": {
+      "title": "Big Five personality traits",
+      "url": "https://en.wikipedia.org/wiki/Big_Five_personality_traits",
+      "license": "Wikipedia text, CC BY-SA 4.0 (quoted with attribution)"
+    },
+    "mbti": {
+      "title": "Myers–Briggs Type Indicator",
+      "url": "https://en.wikipedia.org/wiki/Myers–Briggs_Type_Indicator",
+      "license": "Wikipedia text, CC BY-SA 4.0 (quoted with attribution)"
+    },
+    "holland": {
+      "title": "Holland Codes",
+      "url": "https://en.wikipedia.org/wiki/Holland_Codes",
+      "license": "Wikipedia text, CC BY-SA 4.0 (quoted with attribution)"
+    },
+    "selfesteem": {
+      "title": "Self-esteem",
+      "url": "https://en.wikipedia.org/wiki/Self-esteem",
+      "license": "Wikipedia text, CC BY-SA 4.0 (quoted with attribution)"
+    },
+    "attachment": {
+      "title": "Attachment in adults",
+      "url": "https://en.wikipedia.org/wiki/Attachment_in_adults",
+      "license": "Wikipedia text, CC BY-SA 4.0 (quoted with attribution)"
+    },
+    "tom": {
+      "title": "Theory of mind",
+      "url": "https://en.wikipedia.org/wiki/Theory_of_mind",
+      "license": "Wikipedia text, CC BY-SA 4.0 (quoted with attribution)"
+    },
+    "rorschach": {
+      "title": "Rorschach test",
+      "url": "https://en.wikipedia.org/wiki/Rorschach_test",
+      "license": "Wikipedia text, CC BY-SA 4.0 (quoted with attribution)"
+    },
+    "rorschach_org": {
+      "title": "Rorschach.org FAQ (Mark W. Matthews, PhD)",
+      "url": "https://www.rorschach.org/faq.html",
+      "license": "Rorschach.org, CC BY-NC-SA 3.0 (quoted with attribution)"
+    },
+    "rorschach_org_home": {
+      "title": "Rorschach.org",
+      "url": "https://www.rorschach.org/",
+      "license": "Rorschach.org, CC BY-NC-SA 3.0 (quoted with attribution)"
+    },
+    "dauphin2024": {
+      "title": "Dauphin et al. (2024), Journal of Personality Assessment - abstract",
+      "url": "https://doi.org/10.1080/00223891.2024.2303433",
+      "license": "Open access, CC BY-NC-ND 4.0 (abstract quoted)"
+    }
+  }
+}
